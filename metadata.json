@@ -1,0 +1,8 @@
+{
+  "name": "Remix shefa",
+  "description": "Imported from GitHub: aliferkl-hub/shefa",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

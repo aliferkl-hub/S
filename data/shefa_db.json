@@ -1,0 +1,3579 @@
+{
+  "users": [
+    {
+      "id": "user_master_owner",
+      "email": "Alifermadeiro@hotmail.com",
+      "name": "Alifer Madeiro (Master Owner)",
+      "role": "MASTER_OWNER",
+      "passwordHash": "84591469d698cd1e19bcd074e1bbea808591b3ed85dc4612346f48da7573b02945d8820b0052d27aa02f648a72d03436bbb2da329ecc7ce0531a78a1d838e263",
+      "salt": "c0b0db5cb5aa24b722bce4d085419b55",
+      "createdAt": "2026-10-31T09:32:40.699Z",
+      "lastLogin": "2026-11-02T13:45:55.553Z"
+    },
+    {
+      "id": "user_client_vertice",
+      "email": "contato@verticecorp.com.br",
+      "name": "Diretoria Vértice",
+      "role": "COMPANY_ADMIN",
+      "companyId": "comp_vertice_tech",
+      "passwordHash": "d3c7a3aa900f0de4a4133b96f186fd8c42f84d1ed0d55d80f16509d5847b6276e83507a7f9d8af6188d04a27d18894a76ebcaf46391ec5ef453836fbde405b0b",
+      "salt": "86cc0086c4109582857cb996ba40e147",
+      "createdAt": "2026-10-31T09:32:40.699Z",
+      "lastLogin": "2026-11-02T13:45:55.607Z"
+    },
+    {
+      "id": "user_client_aurora",
+      "email": "gestao@aurorabusiness.com",
+      "name": "Gestão Aurora",
+      "role": "COMPANY_ADMIN",
+      "companyId": "comp_aurora_sa",
+      "passwordHash": "d3c7a3aa900f0de4a4133b96f186fd8c42f84d1ed0d55d80f16509d5847b6276e83507a7f9d8af6188d04a27d18894a76ebcaf46391ec5ef453836fbde405b0b",
+      "salt": "86cc0086c4109582857cb996ba40e147",
+      "createdAt": "2026-10-31T09:32:40.699Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp_vertice_tech",
+      "name": "Vértice Tech Global",
+      "tradeName": "Vértice Sistemas Inteligentes",
+      "cnpjOrTaxId": "42.891.023/0001-94",
+      "plan": "Infinity Enterprise",
+      "status": "active",
+      "createdAt": "2026-01-15T09:00:00Z",
+      "aiPersona": {
+        "assistantName": "Ayin Vértice",
+        "tone": "Consultivo, corporativo e analítico",
+        "welcomeMessage": "Bem-vindo à Vértice Tech. Sou a inteligência dedicada às suas operações.",
+        "instructions": "Focar na automação de processos B2B e expansão da receita com clientes corporativos."
+      },
+      "quotas": {
+        "monthlyMissions": 500,
+        "usedMissions": 142,
+        "maxAgents": 10,
+        "maxKnowledgeDocs": 50
+      }
+    },
+    {
+      "id": "comp_aurora_sa",
+      "name": "Grupo Aurora Logística & Varejo",
+      "tradeName": "Aurora Express",
+      "cnpjOrTaxId": "18.345.678/0001-12",
+      "plan": "Cosmic Growth",
+      "status": "active",
+      "createdAt": "2026-03-10T14:30:00Z",
+      "aiPersona": {
+        "assistantName": "Ayin Aurora",
+        "tone": "Ágil, comercial e focado em logística e entregas",
+        "welcomeMessage": "Olá! Sou o assistente de inteligência de frotas e distribuição da Aurora.",
+        "instructions": "Otimizar taxas de conversão de fretes e renegociação com transportadoras parceiras."
+      },
+      "quotas": {
+        "monthlyMissions": 250,
+        "usedMissions": 88,
+        "maxAgents": 5,
+        "maxKnowledgeDocs": 25
+      }
+    },
+    {
+      "id": "comp_1793485209658_6uz5",
+      "name": "Tech Solutions B2B",
+      "tradeName": "Tech Solutions B2B",
+      "cnpjOrTaxId": "12.345.678/0001-90",
+      "plan": "Astral Starter",
+      "status": "active",
+      "createdAt": "2026-10-31T22:20:09.658Z",
+      "aiPersona": {
+        "assistantName": "Ayin Tech",
+        "tone": "Consultivo, corporativo e focado em alta conversão",
+        "welcomeMessage": "Olá! Sou a inteligência corporativa dedicada da Tech Solutions B2B.",
+        "instructions": "Conduzir atendimento comercial e acelerar as operações da empresa."
+      },
+      "quotas": {
+        "maxUsers": 2,
+        "monthlyMissions": 150,
+        "usedMissions": 0,
+        "maxAgents": 3,
+        "maxKnowledgeDocs": 15
+      },
+      "subscriptionId": "sub_1793485209679_b86w"
+    },
+    {
+      "id": "comp_1793485777595_ac57",
+      "name": "Alpha Audit Corp",
+      "tradeName": "Alpha Audit Corp",
+      "cnpjOrTaxId": "99.888.777/0001-66",
+      "plan": "Cosmic Growth",
+      "status": "active",
+      "createdAt": "2026-10-31T22:29:37.595Z",
+      "aiPersona": {
+        "assistantName": "Ayin Auditoria",
+        "tone": "Consultivo, corporativo e focado em alta conversão",
+        "welcomeMessage": "Olá! Sou a inteligência corporativa dedicada da Alpha Audit Corp.",
+        "instructions": "Conduzir atendimento comercial e acelerar as operações da empresa."
+      },
+      "quotas": {
+        "maxUsers": 5,
+        "monthlyMissions": 600,
+        "usedMissions": 0,
+        "maxAgents": 8,
+        "maxKnowledgeDocs": 50
+      },
+      "subscriptionId": "sub_1793627155626_grhn"
+    },
+    {
+      "id": "comp_1793627150069_5hiv",
+      "name": "Vértice Tech Soluções Corp",
+      "tradeName": "Vértice Tech Soluções",
+      "cnpjOrTaxId": "44.890.123/0001-99",
+      "plan": "Cosmic Growth",
+      "status": "active",
+      "createdAt": "2026-11-02T13:45:50.069Z",
+      "aiPersona": {
+        "assistantName": "Ayin Vértice",
+        "tone": "Consultivo, corporativo e focado em alta conversão",
+        "welcomeMessage": "Olá! Sou a inteligência corporativa dedicada da Vértice Tech Soluções.",
+        "instructions": "Conduzir atendimento comercial e acelerar as operações da empresa."
+      },
+      "quotas": {
+        "maxUsers": 5,
+        "monthlyMissions": 600,
+        "usedMissions": 0,
+        "maxAgents": 8,
+        "maxKnowledgeDocs": 50
+      },
+      "subscriptionId": "sub_1793627150090_i0ll"
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent_radar_01",
+      "companyId": "global",
+      "name": "Radar Sentinel",
+      "hebrewCodename": "צופה (Tzofeh)",
+      "departmentId": "AYIN_RADAR",
+      "agentRoleType": "RADAR AGENT",
+      "role": "Varredura Contínua de Oportunidades",
+      "specialty": "Mapeamento de empresas corporativas com demanda para soluções da SHEFA AYIN",
+      "autonomyLevel": "autonomous_safe",
+      "status": "analyzing",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 341,
+      "accuracyScore": 98,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_lead_02",
+      "companyId": "global",
+      "name": "Lead Organizer",
+      "hebrewCodename": "שומר (Shoer)",
+      "departmentId": "AYIN_SALES",
+      "agentRoleType": "LEAD AGENT",
+      "role": "Qualificação & Estruturação de Contatos",
+      "specialty": "Segmentação de leads corporativos, enriquecimento de dados e pontuação de fit",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 452,
+      "accuracyScore": 97,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_sales_03",
+      "companyId": "global",
+      "name": "Sales Negotiator",
+      "hebrewCodename": "נושא (Noseh)",
+      "departmentId": "AYIN_SALES",
+      "agentRoleType": "SALES AGENT",
+      "role": "Apresentação de Ofertas & Fechamento",
+      "specialty": "Condução de negociações dentro dos limites autorizados e elaboração de propostas",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 520,
+      "accuracyScore": 97,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_customer_04",
+      "companyId": "global",
+      "name": "Customer Concierge 24/7",
+      "hebrewCodename": "עוזר (Ozer)",
+      "departmentId": "AYIN_AGENTS",
+      "agentRoleType": "CUSTOMER AGENT",
+      "role": "Atendimento & Suporte Contínuo",
+      "specialty": "Tira-dúvidas 24h, orientação de planos, checkout Pix e suporte consultivo",
+      "autonomyLevel": "full_autonomous",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 885,
+      "accuracyScore": 99,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_marketing_05",
+      "companyId": "global",
+      "name": "Marketing Herald",
+      "hebrewCodename": "מבשר (Mevaser)",
+      "departmentId": "AYIN_CREATIVE",
+      "agentRoleType": "MARKETING AGENT",
+      "role": "Planejamento de Campanhas & Ativação",
+      "specialty": "Estratégias de conteúdo de atração e acompanhamento de métricas de alcance",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 290,
+      "accuracyScore": 95,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_creative_06",
+      "companyId": "global",
+      "name": "Creative Scribe",
+      "hebrewCodename": "סופר (Sofer)",
+      "departmentId": "AYIN_CREATIVE",
+      "agentRoleType": "CREATIVE AGENT",
+      "role": "Produção de Propostas & Copywriting",
+      "specialty": "Copywriting de alta persuasão, pitches comerciais e materiais de divulgação",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 412,
+      "accuracyScore": 96,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_market_07",
+      "companyId": "global",
+      "name": "Market Intelligence Scout",
+      "hebrewCodename": "סוחר (Socher)",
+      "departmentId": "AYIN_MARKET",
+      "agentRoleType": "MARKET AGENT",
+      "role": "Monitoramento de Concorrência & Tendências",
+      "specialty": "Acompanhamento de precificação concorrencial e oportunidades de arbitragem",
+      "autonomyLevel": "supervised",
+      "status": "idle",
+      "is24hEnabled": false,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 145,
+      "accuracyScore": 94,
+      "lastActive": "2026-10-31T10:05:16.106Z"
+    },
+    {
+      "id": "agent_finance_08",
+      "companyId": "global",
+      "name": "Finance Custodian",
+      "hebrewCodename": "גזבר (Gizbar)",
+      "departmentId": "AYIN_FINANCE",
+      "agentRoleType": "FINANCE AGENT",
+      "role": "Auditoria de Receitas & Despesas",
+      "specialty": "Acompanhamento de pagamentos Pix, liquidações, comissões e proteção de margem",
+      "autonomyLevel": "supervised",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 388,
+      "accuracyScore": 100,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_sub_09",
+      "companyId": "global",
+      "name": "Subscription Warden",
+      "hebrewCodename": "נציב (Natsiv)",
+      "departmentId": "AYIN_FINANCE",
+      "agentRoleType": "SUBSCRIPTION AGENT",
+      "role": "Gestão de Assinaturas & Acessos",
+      "specialty": "Ativação imediata pós-Pix, controle de vencimentos, trials e cotas de uso",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 610,
+      "accuracyScore": 99,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_analytics_10",
+      "companyId": "global",
+      "name": "Analytics Strategist",
+      "hebrewCodename": "חכם (Chacham)",
+      "departmentId": "AYIN_STRATEGY",
+      "agentRoleType": "ANALYTICS AGENT",
+      "role": "Otimização Comercial & Operacional",
+      "specialty": "Identificação de melhorias no funil de conversão e eficiência dos agentes",
+      "autonomyLevel": "full_autonomous",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 672,
+      "accuracyScore": 99,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    },
+    {
+      "id": "agent_report_11",
+      "companyId": "global",
+      "name": "Report Chronicler",
+      "hebrewCodename": "מזכיר (Mazkir)",
+      "departmentId": "AYIN_INTELLIGENCE",
+      "agentRoleType": "REPORT AGENT",
+      "role": "Geração de Relatórios Executivos",
+      "specialty": "Consolidação de relatórios executivos para o Master Owner com visão 360°",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 430,
+      "accuracyScore": 98,
+      "lastActive": "2026-11-02T13:45:49.452Z"
+    }
+  ],
+  "missions": [
+    {
+      "id": "mis_1793439181733_bnxdt",
+      "companyId": "global",
+      "creatorEmail": "Alifermadeiro@hotmail.com",
+      "title": "Missão: Varredura de concorrentes no setor de IA corpora...",
+      "objective": "Orquestração de diretriz estratégica: \"Varredura de concorrentes no setor de IA corporativa com foco em proteção de margem financeira\" com distribuição modular entre departamentos especializados.",
+      "priority": "medium",
+      "status": "completed",
+      "departmentsInvolved": [
+        "AYIN_STRATEGY",
+        "AYIN_RADAR"
+      ],
+      "isSensitive": false,
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Etapa 1: Desdobramento tático em STRATEGY",
+          "departmentId": "AYIN_STRATEGY",
+          "status": "completed",
+          "result": "Relatório de Execução (Ayin Strategy Architect): Análise de conformidade e desdobramento tático concluídos para Etapa 1: Desdobramento tático em STRATEGY."
+        },
+        {
+          "id": "step_2",
+          "title": "Etapa 2: Desdobramento tático em RADAR",
+          "departmentId": "AYIN_RADAR",
+          "status": "completed",
+          "result": "Relatório de Execução (Ayin Radar Sentinel): Análise de conformidade e desdobramento tático concluídos para Etapa 2: Desdobramento tático em RADAR."
+        }
+      ],
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-31T09:33:01.733Z",
+          "agentName": "AYIN CORE Director",
+          "message": "Comando mestre interpretado. Missão decomposta em 2 etapas estratégicas.",
+          "type": "info"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:02.095Z",
+          "agentName": "Ayin Core Director",
+          "message": "Missão iniciada em background contínuo. Despachando tarefas aos departamentos.",
+          "type": "action"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:02.647Z",
+          "agentName": "Ayin Strategy Architect",
+          "message": "Etapa concluída: Etapa 1: Desdobramento tático em STRATEGY.",
+          "type": "success"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:12.604Z",
+          "agentName": "Ayin Radar Sentinel",
+          "message": "Etapa concluída: Etapa 2: Desdobramento tático em RADAR.",
+          "type": "success"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:12.604Z",
+          "agentName": "Ayin Memory Oracle",
+          "message": "Resultados arquivados na memória de longo prazo para evolução operacional contínua.",
+          "type": "info"
+        }
+      ],
+      "createdAt": "2026-10-31T09:33:01.733Z",
+      "updatedAt": "2026-10-31T09:56:12.604Z",
+      "finalReport": "Missão executada integralmente. Todas as 2 etapas cumpridas com validação nos departamentos: AYIN_STRATEGY, AYIN_RADAR."
+    },
+    {
+      "id": "mis_001_market_radar",
+      "companyId": "global",
+      "creatorEmail": "Alifermadeiro@hotmail.com",
+      "title": "Mapeamento Global de Inteligências Verticais 2026",
+      "objective": "Identificar movimentos de concorrentes no setor de IA corporativa e mapear oportunidades de consolidação.",
+      "priority": "high",
+      "status": "completed",
+      "departmentsInvolved": [
+        "AYIN_RADAR",
+        "AYIN_STRATEGY"
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Varredura de 14 plataformas corporativas emergentes",
+          "departmentId": "AYIN_RADAR",
+          "assignedAgentId": "agent_radar_scout",
+          "status": "completed",
+          "result": "Mapeadas 14 soluções. Oportunidade identificada: carência de observatórios integrados com execução 24/7 em background."
+        },
+        {
+          "id": "step_2",
+          "title": "Elaboração da Matriz de Diferenciação Shefa",
+          "departmentId": "AYIN_STRATEGY",
+          "assignedAgentId": "agent_strat_architect",
+          "status": "completed",
+          "result": "Matriz consolidada. Destaque para governança multi-tenant e aprovações do Master Owner."
+        }
+      ],
+      "isSensitive": false,
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-30T14:00:00Z",
+          "agentName": "Ayin Radar Sentinel",
+          "message": "Iniciada varredura de sinais de mercado via conectores autorizados.",
+          "type": "info"
+        },
+        {
+          "timestamp": "2026-10-30T14:15:00Z",
+          "agentName": "Ayin Strategy Architect",
+          "message": "Análise sintética concluída com 98% de precisão.",
+          "type": "success"
+        }
+      ],
+      "finalReport": "Relatório Executivo Shefa: O mercado busca plataformas de inteligência com soberania de dados e sem falsas simulações.",
+      "createdAt": "2026-10-30T13:50:00Z",
+      "updatedAt": "2026-10-30T14:20:00Z"
+    },
+    {
+      "id": "mis_002_creative_push",
+      "companyId": "comp_vertice_tech",
+      "creatorEmail": "contato@verticecorp.com.br",
+      "title": "Campanha de Ativação B2B: Automação Quântica",
+      "objective": "Gerar sequência de abordagem consultiva para diretores de tecnologia e CFOs.",
+      "priority": "medium",
+      "status": "in_progress",
+      "departmentsInvolved": [
+        "AYIN_CREATIVE",
+        "AYIN_SALES"
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Produção de 3 variações de copy de abordagem",
+          "departmentId": "AYIN_CREATIVE",
+          "assignedAgentId": "agent_creative_alchemist",
+          "status": "completed",
+          "result": "Cópias geradas com foco em ROI tangível e redução de custos operacionais."
+        },
+        {
+          "id": "step_2",
+          "title": "Disparo de cadência para 25 leads qualificados",
+          "departmentId": "AYIN_SALES",
+          "assignedAgentId": "agent_sales_closer",
+          "status": "running",
+          "result": "Cadência em andamento. 8 respostas registradas."
+        }
+      ],
+      "isSensitive": false,
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-31T01:10:00Z",
+          "agentName": "Ayin Creative Scribe",
+          "message": "Geração de copy finalizada segundo as diretrizes da Vértice Tech.",
+          "type": "action"
+        }
+      ],
+      "createdAt": "2026-10-31T01:00:00Z",
+      "updatedAt": "2026-10-31T02:00:00Z"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knd_001",
+      "companyId": "global",
+      "title": "Constituição Operacional SHEFA AYIN",
+      "category": "policy",
+      "content": "A Shefa Ayin opera sob três pilares inegociáveis: Transparência Absoluta (sem números simulados), Soberania do Master Owner (ações sensíveis exigem aprovação manual) e Isolamento Multitenant Hermético.",
+      "updatedAt": "2026-10-25T10:00:00Z"
+    },
+    {
+      "id": "knd_002",
+      "companyId": "comp_vertice_tech",
+      "title": "Manual de Soluções e Acordos de Nível de Serviço (SLA)",
+      "category": "guide",
+      "content": "A Vértice Tech garante 99.9% de uptime para sistemas de missão crítica, com resposta inicial do suporte em até 15 minutos para clientes Enterprise.",
+      "updatedAt": "2026-10-20T12:00:00Z"
+    },
+    {
+      "id": "knd_003",
+      "companyId": "comp_aurora_sa",
+      "title": "Diretrizes de Roteirização e Frota Nacional",
+      "category": "policy",
+      "content": "Prazos operacionais padrão: Capitais em até 24 horas úteis; regiões metropolitanas em até 48 horas úteis.",
+      "updatedAt": "2026-10-18T16:00:00Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_1793627155697_vqgs",
+      "companyId": "global",
+      "name": "Roberto Valadares",
+      "email": "roberto@valadares.com",
+      "phone": "+55 11 99999-8888",
+      "companyName": "Valadares Log",
+      "source": "Prospecção Ativa",
+      "stage": "Proposta",
+      "value": 18783,
+      "notes": "",
+      "assignedAgent": "Sales Negotiator",
+      "partnerReferralCode": "ALFA2026",
+      "createdAt": "2026-11-02T13:45:55.697Z",
+      "lastContact": "2026-11-02T13:45:55.708Z"
+    },
+    {
+      "id": "lead_1793627150055_vd1d",
+      "companyId": "comp_vertice_tech",
+      "name": "Carlos Drummond",
+      "email": "carlos@drummond.com.br",
+      "phone": "11988887777",
+      "source": "Atendimento Ayin",
+      "stage": "Novo",
+      "value": 14970,
+      "notes": "Prospect interessado em soberania de IA e suíte completa.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-11-02T13:45:50.055Z",
+      "lastContact": "2026-11-02T13:45:50.055Z"
+    },
+    {
+      "id": "lead_1793627103853_pcxs",
+      "companyId": "comp_vertice_tech",
+      "name": "Carlos Drummond",
+      "email": "carlos@drummond.com.br",
+      "phone": "11988887777",
+      "source": "Atendimento Ayin",
+      "stage": "Qualificado",
+      "value": 14970,
+      "notes": "Prospect interessado em soberania de IA e suíte completa. | Lead qualificado automaticamente pelo Lead Organizer com base no perfil corporativo.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-11-02T13:45:03.853Z",
+      "lastContact": "2026-11-02T13:45:09.446Z"
+    },
+    {
+      "id": "lead_1793627041535_63am",
+      "companyId": "comp_vertice_tech",
+      "name": "Carlos Drummond",
+      "email": "carlos@drummond.com.br",
+      "phone": "11988887777",
+      "source": "Atendimento Ayin",
+      "stage": "Qualificado",
+      "value": 14970,
+      "notes": "Prospect interessado em soberania de IA e suíte completa. | Lead qualificado automaticamente pelo Lead Organizer com base no perfil corporativo.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-11-02T13:44:01.535Z",
+      "lastContact": "2026-11-02T13:44:05.441Z"
+    },
+    {
+      "id": "lead_1793627025522_gpfb",
+      "companyId": "comp_vertice_tech",
+      "name": "Carlos Drummond",
+      "email": "carlos@drummond.com.br",
+      "phone": "11988887777",
+      "source": "Atendimento Ayin",
+      "stage": "Qualificado",
+      "value": 14970,
+      "notes": "Prospect interessado em soberania de IA e suíte completa. | Lead qualificado automaticamente pelo Lead Organizer com base no perfil corporativo.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-11-02T13:43:45.522Z",
+      "lastContact": "2026-11-02T13:43:47.180Z"
+    },
+    {
+      "id": "lead_1793485890401_ys79",
+      "companyId": "global",
+      "name": "Roberto Valadares",
+      "email": "roberto@valadares.com",
+      "phone": "+55 11 99999-8888",
+      "companyName": "Valadares Log",
+      "source": "Prospecção Ativa",
+      "stage": "Proposta",
+      "value": 18783,
+      "notes": "",
+      "assignedAgent": "Sales Negotiator",
+      "partnerReferralCode": "ALFA2026",
+      "createdAt": "2026-10-31T22:31:30.401Z",
+      "lastContact": "2026-10-31T22:31:30.408Z"
+    },
+    {
+      "id": "lead_1793485866027_n9ke",
+      "companyId": "global",
+      "name": "Roberto Valadares",
+      "email": "roberto@valadares.com",
+      "phone": "+55 11 99999-8888",
+      "companyName": "Valadares Log",
+      "source": "Prospecção Ativa",
+      "stage": "Proposta",
+      "value": 18783,
+      "notes": "",
+      "assignedAgent": "Sales Negotiator",
+      "partnerReferralCode": "ALFA2026",
+      "createdAt": "2026-10-31T22:31:06.027Z",
+      "lastContact": "2026-10-31T22:31:06.035Z"
+    },
+    {
+      "id": "lead_1793485777675_oh7e",
+      "companyId": "global",
+      "name": "Roberto Valadares",
+      "email": "roberto@valadares.com",
+      "phone": "+55 11 99999-8888",
+      "companyName": "Valadares Log",
+      "source": "Prospecção Ativa",
+      "stage": "Proposta",
+      "value": 18783,
+      "notes": "",
+      "assignedAgent": "Sales Negotiator",
+      "partnerReferralCode": "ALFA2026",
+      "createdAt": "2026-10-31T22:29:37.675Z",
+      "lastContact": "2026-10-31T22:29:37.681Z"
+    },
+    {
+      "id": "lead_101",
+      "companyId": "comp_vertice_tech",
+      "name": "Dra. Carolina Mendonça",
+      "email": "carolina.m@inovalab.io",
+      "phone": "+55 (11) 98765-4321",
+      "source": "Inbound Conectado",
+      "stage": "Negociação",
+      "value": 120000,
+      "notes": "Interesse em implantar agentes de automação contínua para 4 subsidiárias.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-28T11:20:00Z",
+      "lastContact": "2026-10-30T17:40:00Z"
+    },
+    {
+      "id": "lead_102",
+      "companyId": "comp_vertice_tech",
+      "name": "Eng. Roberto Albuquerque",
+      "email": "roberto@sindlog.com.br",
+      "phone": "+55 (21) 99123-8844",
+      "source": "Radar de Oportunidades",
+      "stage": "Proposta",
+      "value": 48000,
+      "notes": "Solicitou proposta com integração de dados sensíveis e auditoria LGPD.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-29T09:15:00Z",
+      "lastContact": "2026-10-30T15:00:00Z"
+    },
+    {
+      "id": "lead_103",
+      "companyId": "comp_aurora_sa",
+      "name": "Marcos Vinícius Prado",
+      "email": "m.prado@distribuidorasul.com",
+      "phone": "+55 (41) 99876-1122",
+      "source": "Campanha de Ativação",
+      "stage": "Qualificado",
+      "value": 85000,
+      "notes": "Necessidade de monitoramento de fretes fracionados em 12 centros de distribuição.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-30T10:00:00Z",
+      "lastContact": "2026-10-31T01:30:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "companyId": "global",
+      "title": "SHEFA AYIN Enterprise Hub (Licença Anual)",
+      "category": "Plataforma Core",
+      "price": 180000,
+      "commissionRate": 15,
+      "type": "proprio",
+      "status": "active"
+    },
+    {
+      "id": "prod_002",
+      "companyId": "global",
+      "title": "Módulo de Operação Contínua 24h & Agentes Autônomos",
+      "category": "Expansão de Inteligência",
+      "price": 45000,
+      "commissionRate": 20,
+      "type": "proprio",
+      "status": "active"
+    },
+    {
+      "id": "prod_003",
+      "companyId": "comp_vertice_tech",
+      "title": "Vértice Core API - Middleware de Alta Disponibilidade",
+      "category": "Software Corporativo",
+      "price": 64000,
+      "commissionRate": 10,
+      "type": "proprio",
+      "status": "active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_2026_01",
+      "companyId": "comp_vertice_tech",
+      "customerName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "items": [
+        {
+          "productId": "prod_001",
+          "title": "SHEFA AYIN Enterprise Hub (Licença Anual)",
+          "price": 149000,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 149000,
+      "status": "CONFIRMED",
+      "paymentMethod": "PIX",
+      "pixChargeId": "pix_initial_01",
+      "createdAt": "2026-01-15T09:30:00Z",
+      "confirmedAt": "2026-01-15T10:00:00Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_1793627155626_grhn",
+      "companyId": "comp_1793485777595_ac57",
+      "companyName": "Alpha Audit Corp",
+      "customerEmail": "audit@alpha.corp.br",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "CANCELED",
+      "price": 497,
+      "startDate": "2026-11-02T13:45:55.654Z",
+      "expiresAt": "2026-12-02T13:45:55.654Z",
+      "pixChargeId": "pix_1793627155626_uw8o",
+      "autoRenew": false,
+      "featuresUnlocked": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "lastPaymentConfirmedAt": "2026-11-02T13:45:55.654Z",
+      "canceledAt": "2026-11-02T13:45:55.690Z"
+    },
+    {
+      "id": "sub_1793627150090_i0ll",
+      "companyId": "comp_1793627150069_5hiv",
+      "companyName": "Vértice Tech Soluções",
+      "customerEmail": "contato@verticecorp.com.br",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "ACTIVE",
+      "price": 497,
+      "startDate": "2026-11-02T13:45:50.098Z",
+      "expiresAt": "2026-12-02T13:45:50.098Z",
+      "pixChargeId": "pix_1793627150089_wdry",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "lastPaymentConfirmedAt": "2026-11-02T13:45:50.098Z"
+    },
+    {
+      "id": "sub_1793485890353_yw41",
+      "companyId": "comp_1793485777595_ac57",
+      "companyName": "Alpha Audit Corp",
+      "customerEmail": "audit@alpha.corp.br",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "CANCELED",
+      "price": 497,
+      "startDate": "2026-10-31T22:31:30.371Z",
+      "expiresAt": "2026-11-30T22:31:30.371Z",
+      "pixChargeId": "pix_1793485890353_qn9b",
+      "autoRenew": false,
+      "featuresUnlocked": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-31T22:31:30.371Z",
+      "canceledAt": "2026-10-31T22:31:30.397Z"
+    },
+    {
+      "id": "sub_1793485865974_9lct",
+      "companyId": "comp_1793485777595_ac57",
+      "companyName": "Alpha Audit Corp",
+      "customerEmail": "audit@alpha.corp.br",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "CANCELED",
+      "price": 497,
+      "startDate": "2026-10-31T22:31:05.994Z",
+      "expiresAt": "2026-11-30T22:31:05.994Z",
+      "pixChargeId": "pix_1793485865974_c7o2",
+      "autoRenew": false,
+      "featuresUnlocked": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-31T22:31:05.994Z",
+      "canceledAt": "2026-10-31T22:31:06.023Z"
+    },
+    {
+      "id": "sub_1793485777617_v37v",
+      "companyId": "comp_1793485777595_ac57",
+      "companyName": "Alpha Audit Corp",
+      "customerEmail": "audit@alpha.corp.br",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "CANCELED",
+      "price": 497,
+      "startDate": "2026-10-31T22:29:37.636Z",
+      "expiresAt": "2026-11-30T22:29:37.636Z",
+      "pixChargeId": "pix_1793485777617_3b0f",
+      "autoRenew": false,
+      "featuresUnlocked": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-31T22:29:37.636Z",
+      "canceledAt": "2026-10-31T22:29:37.671Z"
+    },
+    {
+      "id": "sub_1793485209679_b86w",
+      "companyId": "comp_1793485209658_6uz5",
+      "companyName": "Tech Solutions B2B",
+      "customerEmail": "contato@techsolutions.com",
+      "planTier": "Astral Starter",
+      "billingCycle": "monthly",
+      "status": "ACTIVE",
+      "price": 197,
+      "startDate": "2026-10-31T22:20:17.414Z",
+      "expiresAt": "2026-11-30T22:20:17.414Z",
+      "pixChargeId": "pix_1793485209679_ejuq",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Núcleo neural AYIN CORE integrado",
+        "Até 3 agentes autônomos simultâneos",
+        "Até 2 usuários com controle de acesso",
+        "150 missões estratégicas/mês",
+        "Radar de mercado e qualificação de leads",
+        "Base de conhecimento privativa (até 15 docs)",
+        "Cobrança e recebimento instantâneo via Pix"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-31T22:20:17.414Z"
+    },
+    {
+      "id": "sub_vertice_001",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "planTier": "Infinity Enterprise",
+      "billingCycle": "annual",
+      "status": "ACTIVE",
+      "price": 149000,
+      "startDate": "2026-01-15T00:00:00Z",
+      "expiresAt": "2027-01-15T00:00:00Z",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Constelação total 11 agentes",
+        "Missões ilimitadas",
+        "Conciliação Pix 24/7",
+        "Blindagem dedicada"
+      ],
+      "lastPaymentConfirmedAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "sub_aurora_002",
+      "companyId": "comp_aurora_sa",
+      "companyName": "Grupo Aurora Logística & Varejo",
+      "customerEmail": "gestao@aurorabusiness.com",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "ACTIVE",
+      "price": 4990,
+      "startDate": "2026-10-10T00:00:00Z",
+      "expiresAt": "2026-11-10T00:00:00Z",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Até 8 agentes 24/7",
+        "500 missões/mês",
+        "Conciliação Pix automática"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-10T14:30:00Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan_astral_starter",
+      "tier": "Astral Starter",
+      "name": "SHEFA ASTRAL · Start",
+      "monthlyPrice": 197,
+      "annualPrice": 1970,
+      "description": "Central de IA autônoma para negócios em aceleração e estruturação de canais comerciais.",
+      "targetAudience": "Para negócios em estruturação e primeiros passos em IA",
+      "features": [
+        "Núcleo neural AYIN CORE integrado",
+        "Até 3 agentes autônomos simultâneos",
+        "Até 2 usuários com controle de acesso",
+        "150 missões estratégicas/mês",
+        "Radar de mercado e qualificação de leads",
+        "Base de conhecimento privativa (até 15 docs)",
+        "Cobrança e recebimento instantâneo via Pix"
+      ],
+      "trialDays": 7,
+      "limits": {
+        "maxUsers": 2,
+        "monthlyMissions": 150,
+        "maxAgents": 3,
+        "maxKnowledgeDocs": 15,
+        "customAIPersona": false,
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "plan_cosmic_growth",
+      "tier": "Cosmic Growth",
+      "name": "SHEFA COSMIC · Growth",
+      "monthlyPrice": 497,
+      "annualPrice": 4970,
+      "description": "Operação autônoma contínua 24h para empresas consolidadas com múltiplos canais e produtos.",
+      "targetAudience": "Para empresas em aceleração comercial com times de vendas",
+      "features": [
+        "Núcleo AYIN CORE com prioridade de processamento",
+        "Suíte AYIN SALES e AYIN CUSTOMER incluídas",
+        "Até 8 agentes especializados 24/7",
+        "Até 5 usuários na plataforma",
+        "600 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria da empresa",
+        "Automação completa de propostas e follow-ups",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada com baixa instantânea"
+      ],
+      "trialDays": 7,
+      "limits": {
+        "maxUsers": 5,
+        "monthlyMissions": 600,
+        "maxAgents": 8,
+        "maxKnowledgeDocs": 50,
+        "customAIPersona": true,
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "plan_infinity_enterprise",
+      "tier": "Infinity Enterprise",
+      "name": "SHEFA INFINITY · Enterprise",
+      "monthlyPrice": 1497,
+      "annualPrice": 14970,
+      "description": "Soberania corporativa total, rede irrestrita de agentes 24/7, blindagem e consultoria tática contínua.",
+      "targetAudience": "Para grandes corporações e operações de missão crítica",
+      "features": [
+        "Acesso total à constelação com os 11 agentes autônomos",
+        "Suíte completa: AYIN SALES, CUSTOMER, FINANCE e CORE",
+        "Usuários corporativos ilimitados (até 25 assentos)",
+        "3.000+ missões e tarefas estratégicas/mês",
+        "Blindagem LGPD & Isolamento multitenant hermético",
+        "Módulo 24/7 ininterrupto no servidor",
+        "Aprovações do Master Owner com travas personalizadas",
+        "Gestão de comissionamento dinâmico de afiliados e parceiros",
+        "Suporte consultivo prioritário e onboarding hands-on"
+      ],
+      "trialDays": 14,
+      "limits": {
+        "maxUsers": 25,
+        "monthlyMissions": 3000,
+        "maxAgents": 11,
+        "maxKnowledgeDocs": 200,
+        "customAIPersona": true,
+        "prioritySupport": true,
+        "dedicatedAccountManager": true
+      }
+    }
+  ],
+  "enterpriseServices": [
+    {
+      "id": "srv_diagnostic_01",
+      "code": "DIAGNOSTIC",
+      "name": "Diagnóstico Estratégico de IA & Mapeamento de Oportunidades",
+      "tagline": "Auditoria profunda de processos, funis e arquitetura para implantação de IA.",
+      "description": "Imersão completa na operação da sua empresa conduzida por especialistas e agentes analíticos. Mapeamento de gargalos manuais, identificação de rotinas automatizáveis e plano tático detalhado com projeção de ROI.",
+      "basePrice": 2490,
+      "deliveryTimelineDays": 5,
+      "deliverables": [
+        "Relatório Executivo de Maturidade em Inteligência Artificial",
+        "Mapeamento dos 10 maiores gargalos operacionais da empresa",
+        "Blueprint de arquitetura dos agentes necessários",
+        "Projeção de economia de tempo e incremento de receita em 12 meses",
+        "Sessão executiva de alinhamento com a diretoria"
+      ],
+      "recommendedFor": "Empresas que querem adotar IA mas precisam de clareza prévia sobre prioridades e ROI.",
+      "isActive": true
+    },
+    {
+      "id": "srv_deployment_02",
+      "code": "DEPLOYMENT",
+      "name": "Implantação & Onboarding Hands-on de Agentes Autônomos",
+      "tagline": "Configuração integral, treinamento de dados e ativação 24/7 guiada por engenheiros.",
+      "description": "Implementação assistida da constelação SHEFA AYIN no ambiente corporativo. Parametrização dos agentes, integração de base de conhecimento da empresa, definição das personas e políticas de segurança sob medida.",
+      "basePrice": 5900,
+      "deliveryTimelineDays": 14,
+      "deliverables": [
+        "Setup completo do tenant corporativo isolado",
+        "Estruturação da Base de Conhecimento e manuais internos",
+        "Personalização da Persona do Assistente Corporativo",
+        "Testes assistidos de missões reais e homologação com a equipe",
+        "Treinamento ao vivo da equipe interna e material de onboarding"
+      ],
+      "recommendedFor": "Empresas contratantes que desejam acelerar o time-to-value com suporte técnico presencial/remoto.",
+      "isActive": true
+    },
+    {
+      "id": "srv_custom_automation_03",
+      "code": "CUSTOM_AUTOMATION",
+      "name": "Automações Personalizadas de Fluxos & Conectores de APIs",
+      "tagline": "Desenvolvimento de fluxos sob demanda, integrações com ERPs, CRMs e canais externos.",
+      "description": "Criação de pipelines proprietários conectando os 11 agentes aos sistemas legados do cliente (CRM, ERP, WhatsApp API, gateways de pagamento, planilhas e bancos de dados externos).",
+      "basePrice": 8900,
+      "deliveryTimelineDays": 21,
+      "deliverables": [
+        "Desenvolvimento de conectores customizados de entrada e saída",
+        "Regras táticas de validação e desvio seguro de exceções",
+        "Painéis de monitoramento de fluxo e telemetria",
+        "Homologação de segurança e isolamento de dados LGPD",
+        "Garantia de 90 dias de suporte e estabilidade de código"
+      ],
+      "recommendedFor": "Operações que necessitam de integrações customizadas com sistemas proprietários existentes.",
+      "isActive": true
+    },
+    {
+      "id": "srv_consulting_04",
+      "code": "CONSULTING",
+      "name": "Consultoria Estratégica Contínua & Comitê de IA",
+      "tagline": "Acompanhamento mensal tático com reuniões quinzenais de otimização de resultados.",
+      "description": "Apoio contínuo de conselho estratégico em IA para sustentação e expansão de margem. Revisão quinzenal dos relatórios dos agentes, fine-tuning das personas e calibração dos funis de vendas.",
+      "basePrice": 3500,
+      "deliveryTimelineDays": 30,
+      "deliverables": [
+        "2 Reuniões executivas mensais de avaliação de indicadores",
+        "Ajustes de prompts estratégicos e regras de negócios dos agentes",
+        "Priorização contínua do backlog de novas missões",
+        "Acesso a canal prioritário no WhatsApp com engenheiro sênior",
+        "Relatório mensal de impacto financeiro e produtividade"
+      ],
+      "recommendedFor": "Empresas em forte expansão que querem acompanhamento consultivo contínuo de alta senioridade.",
+      "isActive": true
+    }
+  ],
+  "serviceContracts": [
+    {
+      "id": "ctr_vertice_01",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "serviceId": "srv_custom_automation_03",
+      "serviceCode": "CUSTOM_AUTOMATION",
+      "serviceName": "Automações Personalizadas de Processos & APIs",
+      "status": "IN_PROGRESS",
+      "price": 8900,
+      "scopeNotes": "Integração de pipeline de leads corporativos com conector de webhook e auditoria LGPD.",
+      "timelineDays": 21,
+      "assignedAgentCodename": "Yoetz (Estrategista)",
+      "startDate": "2026-10-20T10:00:00Z",
+      "createdAt": "2026-10-18T14:00:00Z",
+      "updatedAt": "2026-10-25T09:30:00Z"
+    },
+    {
+      "id": "ctr_aurora_02",
+      "companyId": "comp_aurora_sa",
+      "companyName": "Grupo Aurora Logística & Varejo",
+      "customerEmail": "gestao@aurorabusiness.com",
+      "serviceId": "srv_deployment_02",
+      "serviceCode": "DEPLOYMENT",
+      "serviceName": "Implantação & Onboarding Hands-on de Agentes Autônomos",
+      "status": "DELIVERED",
+      "price": 5900,
+      "scopeNotes": "Parametrização completa do assistente Ayin Aurora e upload de 25 manuais de frotas.",
+      "timelineDays": 14,
+      "assignedAgentCodename": "Ozer (Customer)",
+      "startDate": "2026-03-12T08:00:00Z",
+      "deliveredAt": "2026-03-26T17:00:00Z",
+      "createdAt": "2026-03-10T15:00:00Z",
+      "updatedAt": "2026-03-26T17:00:00Z"
+    }
+  ],
+  "flagshipProducts": [
+    {
+      "id": "prod_ayin_sales",
+      "code": "AYIN_SALES",
+      "name": "AYIN SALES",
+      "hebrewName": "מערך המכירות (Noseh & Shoer)",
+      "tagline": "Inteligência comercial autônoma para prospecção, qualificação e fechamento de negócios.",
+      "description": "Módulo comercial de alta conversão. Conduz abordagem de leads, enriquece dados cadastrais, apresenta propostas formatadas com trava de desconto e realiza follow-up sistemático 24/7.",
+      "capabilities": [
+        "Enriquecimento automático e pontuação de fit de leads B2B",
+        "Geração instantânea de propostas comerciais personalizadas",
+        "Negociação autônoma dentro de margens pré-estabelecidas",
+        "Follow-up com cadência inteligente para redução de no-show",
+        "Pipeline visual com transições automáticas de estágio"
+      ],
+      "associatedAgents": [
+        "Radar Sentinel",
+        "Lead Organizer",
+        "Sales Negotiator"
+      ],
+      "departmentId": "AYIN_SALES",
+      "includedInPlans": [
+        "Cosmic Growth",
+        "Infinity Enterprise"
+      ],
+      "standalonePriceMonthly": 390
+    },
+    {
+      "id": "prod_ayin_customer",
+      "code": "AYIN_CUSTOMER",
+      "name": "AYIN CUSTOMER",
+      "hebrewName": "שירות לקוחות (Ozer)",
+      "tagline": "Concierge de atendimento e suporte corporativo com persona exclusiva 24 horas por dia.",
+      "description": "Assistente corporativo dedicado à sua empresa com base de conhecimento privativa. Tira dúvidas de produtos, orienta clientes em checkout Pix, soluciona tickets de nível 1 e 2 e eleva o NPS.",
+      "capabilities": [
+        "Atendimento ininterrupto 24/7 com tempo de resposta imediato",
+        "Persona e tom de voz calibrados conforme as diretrizes da marca",
+        "Busca semântica restrita aos manuais e documentos autorizados",
+        "Onboarding interativo para novos clientes e usuários",
+        "Escalonamento inteligente para atendentes humanos em casos críticos"
+      ],
+      "associatedAgents": [
+        "Customer Concierge 24/7"
+      ],
+      "departmentId": "AYIN_AGENTS",
+      "includedInPlans": [
+        "Cosmic Growth",
+        "Infinity Enterprise"
+      ],
+      "standalonePriceMonthly": 350
+    },
+    {
+      "id": "prod_ayin_finance",
+      "code": "AYIN_FINANCE",
+      "name": "AYIN FINANCE",
+      "hebrewName": "ניהול פיננסי (Gizbar & Natsiv)",
+      "tagline": "Auditoria de receitas, conciliação Pix em tempo real e blindagem de margem.",
+      "description": "Gestor financeiro autônomo. Concilia transações Pix de ponta a ponta, emite cobranças com QR Code padrão BACEN, monitora inadimplência, liquida comissões de parceiros e audita custos operacionais.",
+      "capabilities": [
+        "Conciliação automatizada de pagamentos Pix com baixa instantânea",
+        "Cálculo e monitoramento em tempo real de MRR e churn",
+        "Régua inteligente de cobrança para mitigação de inadimplência",
+        "Cálculo e liquidação de comissões de parceiros comerciais",
+        "Relatórios de Demonstração de Resultado (DRE) com margem real"
+      ],
+      "associatedAgents": [
+        "Finance Custodian",
+        "Subscription Warden"
+      ],
+      "departmentId": "AYIN_FINANCE",
+      "includedInPlans": [
+        "Infinity Enterprise"
+      ],
+      "standalonePriceMonthly": 490
+    },
+    {
+      "id": "prod_ayin_core",
+      "code": "AYIN_CORE",
+      "name": "AYIN CORE",
+      "hebrewName": "עין השפע (Tzofeh, Chacham & Mazkir)",
+      "tagline": "Cérebro central neural com soberania Master Owner e orquestração de missões.",
+      "description": "O epicentro de inteligência do Observatório SHEFA AYIN. Decompõe comandos de alto nível em tarefas táticas distribuídas entre os 11 agentes, impõe travas de segurança orçamentária e gera relatórios executivos 360°.",
+      "capabilities": [
+        "Interpretação neural de comandos estratégicos por voz ou texto",
+        "Decomposição e despacho multi-agente com dependências de etapas",
+        "Trava de soberania Master Owner para ações com impacto orçamentário",
+        "Kill-switch de emergência e pausa geral com 1 clique",
+        "Histórico imutável de auditoria com encadeamento criptográfico SHA-256"
+      ],
+      "associatedAgents": [
+        "Radar Sentinel",
+        "Analytics Strategist",
+        "Report Chronicler"
+      ],
+      "departmentId": "AYIN_STRATEGY",
+      "includedInPlans": [
+        "Astral Starter",
+        "Cosmic Growth",
+        "Infinity Enterprise"
+      ],
+      "standalonePriceMonthly": 690
+    }
+  ],
+  "proposals": [
+    {
+      "id": "prop_1793627155708_sjly",
+      "leadId": "lead_1793627155697_vqgs",
+      "companyName": "Valadares Log",
+      "contactName": "Roberto Valadares",
+      "contactEmail": "roberto@valadares.com",
+      "planTier": "Infinity Enterprise",
+      "servicesIncluded": [
+        "Implantação & Onboarding Hands-on de Agentes Autônomos"
+      ],
+      "totalValue": 20870,
+      "discountPercent": 10,
+      "finalValue": 18783,
+      "status": "SENT",
+      "validUntil": "2026-11-17T13:45:55.708Z",
+      "createdAt": "2026-11-02T13:45:55.708Z"
+    },
+    {
+      "id": "prop_1793627150062_izle",
+      "companyName": "Drummond & Associados",
+      "contactName": "Carlos Drummond",
+      "contactEmail": "carlos@drummond.com.br",
+      "planTier": "Cosmic Growth",
+      "servicesIncluded": [
+        "Implantação Dedicated",
+        "Treinamento Tático"
+      ],
+      "totalValue": 5000,
+      "discountPercent": 10,
+      "finalValue": 4500,
+      "status": "SENT",
+      "validUntil": "2026-11-17T13:45:50.062Z",
+      "createdAt": "2026-11-02T13:45:50.062Z"
+    },
+    {
+      "id": "prop_1793627103858_fk2s",
+      "companyName": "Drummond & Associados",
+      "contactName": "Carlos Drummond",
+      "contactEmail": "carlos@drummond.com.br",
+      "planTier": "Cosmic Growth",
+      "servicesIncluded": [
+        "Implantação Dedicated",
+        "Treinamento Tático"
+      ],
+      "totalValue": 5000,
+      "discountPercent": 10,
+      "finalValue": 4500,
+      "status": "SENT",
+      "validUntil": "2026-11-17T13:45:03.858Z",
+      "createdAt": "2026-11-02T13:45:03.858Z"
+    },
+    {
+      "id": "prop_1793485890408_tuui",
+      "leadId": "lead_1793485890401_ys79",
+      "companyName": "Valadares Log",
+      "contactName": "Roberto Valadares",
+      "contactEmail": "roberto@valadares.com",
+      "planTier": "Infinity Enterprise",
+      "servicesIncluded": [
+        "Implantação & Onboarding Hands-on de Agentes Autônomos"
+      ],
+      "totalValue": 20870,
+      "discountPercent": 10,
+      "finalValue": 18783,
+      "status": "SENT",
+      "validUntil": "2026-11-15T22:31:30.408Z",
+      "createdAt": "2026-10-31T22:31:30.408Z"
+    },
+    {
+      "id": "prop_1793485866035_hj7a",
+      "leadId": "lead_1793485866027_n9ke",
+      "companyName": "Valadares Log",
+      "contactName": "Roberto Valadares",
+      "contactEmail": "roberto@valadares.com",
+      "planTier": "Infinity Enterprise",
+      "servicesIncluded": [
+        "Implantação & Onboarding Hands-on de Agentes Autônomos"
+      ],
+      "totalValue": 20870,
+      "discountPercent": 10,
+      "finalValue": 18783,
+      "status": "SENT",
+      "validUntil": "2026-11-15T22:31:06.035Z",
+      "createdAt": "2026-10-31T22:31:06.035Z"
+    },
+    {
+      "id": "prop_1793485777681_9jrw",
+      "leadId": "lead_1793485777675_oh7e",
+      "companyName": "Valadares Log",
+      "contactName": "Roberto Valadares",
+      "contactEmail": "roberto@valadares.com",
+      "planTier": "Infinity Enterprise",
+      "servicesIncluded": [
+        "Implantação & Onboarding Hands-on de Agentes Autônomos"
+      ],
+      "totalValue": 20870,
+      "discountPercent": 10,
+      "finalValue": 18783,
+      "status": "SENT",
+      "validUntil": "2026-11-15T22:29:37.681Z",
+      "createdAt": "2026-10-31T22:29:37.681Z"
+    },
+    {
+      "id": "prop_2026_01",
+      "leadId": "lead_101",
+      "companyName": "InovaLab Biotecnologia",
+      "contactName": "Dra. Carolina Mendonça",
+      "contactEmail": "carolina.m@inovalab.io",
+      "contactPhone": "+55 (11) 98765-4321",
+      "planTier": "Infinity Enterprise",
+      "servicesIncluded": [
+        "Assinatura Anual SHEFA INFINITY Enterprise (R$ 14.970/ano)",
+        "Diagnóstico Estratégico de IA (R$ 2.490)",
+        "Implantação & Onboarding Hands-on (R$ 5.900)"
+      ],
+      "totalValue": 23360,
+      "discountPercent": 10,
+      "finalValue": 21024,
+      "status": "SENT",
+      "validUntil": "2026-11-15T23:59:59Z",
+      "notes": "Proposta customizada com foco em aceleração de 4 laboratórios subsidiários.",
+      "createdAt": "2026-10-29T14:00:00Z"
+    },
+    {
+      "id": "prop_2026_02",
+      "leadId": "lead_102",
+      "companyName": "SindLog Transportes & Cargas",
+      "contactName": "Eng. Roberto Albuquerque",
+      "contactEmail": "roberto@sindlog.com.br",
+      "contactPhone": "+55 (21) 99123-8844",
+      "planTier": "Cosmic Growth",
+      "servicesIncluded": [
+        "Assinatura Anual SHEFA COSMIC Growth (R$ 4.970/ano)",
+        "Automações Personalizadas de Processos & APIs (R$ 8.900)"
+      ],
+      "totalValue": 13870,
+      "discountPercent": 5,
+      "finalValue": 13176,
+      "status": "ACCEPTED",
+      "validUntil": "2026-11-05T23:59:59Z",
+      "notes": "Aguardando validação do pagamento Pix do valor de entrada.",
+      "createdAt": "2026-10-30T10:00:00Z",
+      "acceptedAt": "2026-10-31T11:00:00Z"
+    }
+  ],
+  "partners": [
+    {
+      "id": "prt_001",
+      "name": "Rede de Expansão Alfa",
+      "email": "parceiros@alfaexp.com.br",
+      "companyName": "Alfa Expansão Comercial Ltda",
+      "referralCode": "ALFA2026",
+      "commissionRate": 15,
+      "totalReferredLeads": 22,
+      "totalDealsClosed": 4,
+      "totalCommissionEarned": 3200,
+      "totalCommissionPaid": 1800,
+      "status": "active",
+      "createdAt": "2026-02-01T00:00:00Z"
+    },
+    {
+      "id": "prt_002",
+      "name": "Consultoria Nexus B2B",
+      "email": "contato@nexusb2b.com.br",
+      "companyName": "Nexus Consultores Associados",
+      "referralCode": "NEXUS_IA",
+      "commissionRate": 10,
+      "totalReferredLeads": 12,
+      "totalDealsClosed": 3,
+      "totalCommissionEarned": 1450,
+      "totalCommissionPaid": 1450,
+      "status": "active",
+      "createdAt": "2026-04-15T00:00:00Z"
+    }
+  ],
+  "pixCharges": [
+    {
+      "id": "pix_1793627155626_uw8o",
+      "orderId": "sub_1793627155626_grhn",
+      "companyId": "comp_1793485777595_ac57",
+      "customerName": "Auditoria Alpha S.A.",
+      "customerEmail": "audit@alpha.corp.br",
+      "customerCpfOrCnpj": "99.888.777/0001-66",
+      "planTier": "Cosmic Growth",
+      "amount": 497,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406497.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF27155623WT630475DD",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m3 0h1m2 0h1m1 0h1m2 0h1m2 0h1m1 0h2m2 0h1m1 0h2m3 0h7M1 2.5h1m5 0h1m1 0h1m2 0h3m2 0h2m4 0h2m1 0h1m1 0h1m1 0h4m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m3 0h2m1 0h1m1 0h1m3 0h1m1 0h4m3 0h2m1 0h2m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m2 0h5m1 0h1m1 0h1m1 0h1m1 0h3m6 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m4 0h2m4 0h2m1 0h2m2 0h2m2 0h3m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h1m2 0h2m1 0h3m1 0h2m2 0h1m1 0h1m6 0h1m1 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M10 8.5h3m1 0h3m1 0h1m2 0h1m1 0h2m1 0h3m2 0h1m1 0h1M1 9.5h1m1 0h1m1 0h1m1 0h1m2 0h3m7 0h2m1 0h1m2 0h1m4 0h2m4 0h1m2 0h1M1 10.5h2m3 0h1m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m2 0h1m1 0h1m2 0h3m1 0h2m2 0h1m1 0h2M2 11.5h3m1 0h5m1 0h1m4 0h1m1 0h3m4 0h1m1 0h1m6 0h1m3 0h3M3 12.5h1m1 0h2m1 0h6m3 0h2m1 0h2m1 0h2m5 0h2m3 0h2m1 0h1m1 0h1M1 13.5h3m1 0h3m4 0h1m2 0h4m2 0h1m1 0h1m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3M5 14.5h1m7 0h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m4 0h3m1 0h3m1 0h1M3 15.5h1m1 0h4m5 0h4m1 0h4m4 0h1m2 0h2m5 0h2m2 0h1M1 16.5h1m3 0h1m4 0h1m1 0h1m1 0h2m3 0h1m1 0h1m1 0h2m1 0h1m1 0h2m1 0h1m1 0h1m1 0h2m2 0h1m1 0h1M1 17.5h1m1 0h3m1 0h3m1 0h2m3 0h2m2 0h1m6 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1M2 18.5h2m4 0h2m1 0h1m1 0h1m1 0h1m3 0h2m1 0h2m1 0h1m2 0h1m2 0h1m2 0h1m3 0h1m2 0h1M1 19.5h1m3 0h1m1 0h1m2 0h1m2 0h1m2 0h1m1 0h1m2 0h1m1 0h1m2 0h4m1 0h1m4 0h1m1 0h1M1 20.5h2m2 0h2m1 0h1m1 0h1m1 0h2m1 0h3m2 0h5m1 0h2m2 0h2m2 0h1m3 0h1m1 0h2M1 21.5h2m2 0h3m1 0h6m1 0h2m2 0h1m2 0h1m1 0h1m1 0h3m1 0h1m3 0h1m1 0h1m2 0h2M1 22.5h1m2 0h1m4 0h1m1 0h2m1 0h1m1 0h1m3 0h7m1 0h4m1 0h2m1 0h2m1 0h2M1 23.5h1m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1m4 0h1m1 0h3m2 0h2m1 0h1m1 0h1m5 0h1m1 0h1M1 24.5h1m3 0h2m2 0h1m3 0h4m3 0h1m1 0h2m2 0h2m1 0h4m2 0h2m1 0h1m2 0h1M3 25.5h1m1 0h1m1 0h1m1 0h1m4 0h2m4 0h2m2 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h2m2 0h1M4 26.5h1m1 0h1m2 0h5m1 0h1m1 0h1m1 0h2m3 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1M1 27.5h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m3 0h1m1 0h4m1 0h1m6 0h1m2 0h1m1 0h4m2 0h1M3 28.5h1m1 0h1m2 0h2m4 0h1m2 0h4m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m1 0h2M1 29.5h1m4 0h4m1 0h1m2 0h1m3 0h1m4 0h3m1 0h3m4 0h1m1 0h2m3 0h1M3 30.5h1m1 0h1m2 0h1m2 0h1m3 0h1m1 0h1m2 0h1m1 0h1m1 0h2m2 0h1m1 0h3m1 0h1m1 0h1m2 0h2M1 31.5h1m1 0h3m1 0h1m1 0h6m1 0h2m1 0h1m4 0h2m1 0h5m1 0h3m1 0h1m2 0h2M2 32.5h1m1 0h3m6 0h5m2 0h1m2 0h1m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1M1 33.5h1m1 0h1m1 0h3m1 0h3m1 0h1m1 0h1m2 0h1m3 0h3m2 0h1m1 0h2m1 0h6m1 0h1m1 0h1M9 34.5h1m1 0h1m3 0h1m2 0h1m2 0h1m1 0h6m1 0h4m3 0h5M1 35.5h7m3 0h2m1 0h1m1 0h1m2 0h1m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h2m1 0h1M1 36.5h1m5 0h1m6 0h7m4 0h2m1 0h1m1 0h4m3 0h3m1 0h1M1 37.5h1m1 0h3m1 0h1m1 0h3m1 0h1m1 0h1m3 0h2m3 0h2m1 0h3m1 0h1m1 0h8M1 38.5h1m1 0h3m1 0h1m2 0h5m2 0h1m1 0h3m2 0h3m3 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 39.5h1m1 0h3m1 0h1m1 0h2m5 0h1m1 0h2m1 0h3m2 0h2m2 0h2m5 0h1m1 0h1m1 0h1M1 40.5h1m5 0h1m3 0h4m4 0h1m1 0h1m1 0h2m1 0h3m1 0h5m3 0h1M1 41.5h7m1 0h2m3 0h1m6 0h1m5 0h1m2 0h2m3 0h4m2 0h1\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-11-02T13:45:55.623Z",
+      "expiresAt": "2026-11-02T14:15:55.623Z",
+      "txId": "SHF27155623WT",
+      "failureReason": "Valor recebido (R$ 1.00) diverge do valor faturado (R$ 497.00)",
+      "confirmedAt": "2026-11-02T13:45:55.654Z",
+      "endToEndId": "E119734794731793627155652"
+    },
+    {
+      "id": "pix_1793627150089_wdry",
+      "orderId": "sub_1793627150090_i0ll",
+      "companyId": "comp_1793627150069_5hiv",
+      "customerName": "Vértice Tech Soluções",
+      "customerEmail": "contato@verticecorp.com.br",
+      "customerCpfOrCnpj": "44.890.123/0001-99",
+      "planTier": "Cosmic Growth",
+      "amount": 497,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406497.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF271500695T6304C55E",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m2 0h2m4 0h1m2 0h1m2 0h1m1 0h2m2 0h1m2 0h1m3 0h7M1 2.5h1m5 0h1m1 0h2m1 0h3m2 0h2m4 0h2m1 0h3m2 0h3m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m3 0h2m1 0h1m1 0h1m3 0h1m1 0h4m1 0h1m1 0h2m1 0h2m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h3m2 0h1m3 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m5 0h2m1 0h2m3 0h1m3 0h2m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h1m2 0h2m1 0h3m1 0h2m2 0h1m1 0h1m6 0h1m1 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M10 8.5h3m1 0h3m1 0h1m2 0h1m1 0h2m1 0h3m2 0h1m1 0h1M1 9.5h1m1 0h1m1 0h1m1 0h1m2 0h3m7 0h2m1 0h1m2 0h1m4 0h2m4 0h1m2 0h1M2 10.5h1m3 0h1m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m2 0h1m1 0h1m2 0h3m1 0h2m2 0h1m1 0h2M1 11.5h4m1 0h5m1 0h1m4 0h1m1 0h3m4 0h1m1 0h1m6 0h1m3 0h3M2 12.5h2m1 0h2m1 0h6m3 0h2m1 0h2m1 0h2m5 0h2m3 0h2m1 0h1m1 0h1M1 13.5h1m1 0h1m1 0h3m4 0h1m2 0h2m1 0h1m2 0h1m1 0h1m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3M5 14.5h1m6 0h1m2 0h1m1 0h1m2 0h5m1 0h1m1 0h1m3 0h4m1 0h3m1 0h1M3 15.5h1m1 0h4m3 0h6m1 0h4m4 0h6m4 0h2m2 0h1M1 16.5h1m3 0h1m4 0h1m1 0h6m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1m2 0h3m1 0h2m2 0h1m1 0h1M1 17.5h1m1 0h3m1 0h3m1 0h1m5 0h1m2 0h1m6 0h3m1 0h1m1 0h1m1 0h1m1 0h1M2 18.5h2m4 0h2m1 0h1m1 0h3m3 0h2m1 0h2m1 0h2m1 0h1m1 0h2m2 0h1m3 0h1m2 0h1M1 19.5h1m3 0h1m1 0h1m2 0h2m1 0h2m1 0h1m1 0h1m2 0h1m1 0h1m2 0h1m1 0h2m1 0h1m4 0h1m1 0h1M1 20.5h2m2 0h2m1 0h1m2 0h7m2 0h5m2 0h1m2 0h2m2 0h1m3 0h1m1 0h2M1 21.5h2m1 0h4m4 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h3m1 0h1m3 0h1m1 0h1m2 0h2M1 22.5h1m6 0h1m3 0h1m1 0h1m1 0h1m3 0h7m1 0h4m1 0h2m1 0h2m1 0h2M1 23.5h1m1 0h3m1 0h5m2 0h1m4 0h1m1 0h3m2 0h2m1 0h1m1 0h1m5 0h1m1 0h1M1 24.5h1m1 0h4m1 0h1m4 0h4m3 0h1m1 0h2m2 0h2m1 0h4m2 0h2m1 0h1m2 0h1M3 25.5h1m1 0h1m1 0h1m1 0h1m4 0h2m4 0h2m2 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h2m2 0h1M4 26.5h3m2 0h5m1 0h1m1 0h1m1 0h2m3 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1M3 27.5h1m2 0h2m1 0h2m1 0h1m3 0h1m1 0h4m1 0h1m6 0h1m2 0h1m1 0h4m2 0h1M2 28.5h2m1 0h1m2 0h2m4 0h1m2 0h4m5 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2M1 29.5h1m3 0h1m1 0h3m1 0h1m2 0h1m3 0h1m4 0h3m1 0h3m3 0h1m1 0h3m3 0h1M2 30.5h2m1 0h1m2 0h1m2 0h3m1 0h1m1 0h1m2 0h1m1 0h1m1 0h2m2 0h1m1 0h5m1 0h1m2 0h2M1 31.5h1m1 0h3m1 0h1m1 0h3m2 0h1m2 0h1m1 0h1m4 0h2m1 0h5m1 0h3m1 0h1m2 0h2M2 32.5h1m1 0h3m5 0h5m3 0h1m2 0h1m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1M1 33.5h1m1 0h1m1 0h3m1 0h3m1 0h1m1 0h1m2 0h1m3 0h3m2 0h1m1 0h2m2 0h5m1 0h1m1 0h1M9 34.5h3m2 0h2m2 0h1m2 0h1m1 0h6m1 0h4m3 0h5M1 35.5h7m2 0h1m1 0h1m3 0h1m2 0h1m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h2m1 0h1M1 36.5h1m5 0h1m2 0h2m2 0h1m1 0h5m4 0h2m1 0h1m1 0h4m3 0h3m1 0h1M1 37.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h3m3 0h2m3 0h2m1 0h3m1 0h1m1 0h8M1 38.5h1m1 0h3m1 0h1m2 0h5m2 0h1m1 0h3m2 0h3m3 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 39.5h1m1 0h3m1 0h1m1 0h2m5 0h1m1 0h2m1 0h3m2 0h2m2 0h2m5 0h1m1 0h1m1 0h1M1 40.5h1m5 0h1m3 0h4m4 0h1m1 0h1m1 0h2m1 0h3m1 0h5m3 0h1M1 41.5h7m1 0h2m3 0h1m6 0h1m5 0h1m2 0h2m3 0h4m2 0h1\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-11-02T13:45:50.069Z",
+      "expiresAt": "2026-11-02T14:15:50.069Z",
+      "txId": "SHF271500695T",
+      "confirmedAt": "2026-11-02T13:45:50.098Z",
+      "endToEndId": "E2E_1793627150096"
+    },
+    {
+      "id": "pix_1793485890353_qn9b",
+      "orderId": "sub_1793485890353_yw41",
+      "companyId": "comp_1793485777595_ac57",
+      "customerName": "Auditoria Alpha S.A.",
+      "customerEmail": "audit@alpha.corp.br",
+      "customerCpfOrCnpj": "99.888.777/0001-66",
+      "planTier": "Cosmic Growth",
+      "amount": 497,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406497.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF85890349T76304F671",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m2 0h2m4 0h1m2 0h1m2 0h1m1 0h2m2 0h1m1 0h2m3 0h7M1 2.5h1m5 0h1m2 0h1m1 0h2m1 0h1m2 0h1m1 0h1m3 0h1m2 0h4m2 0h1m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m6 0h1m1 0h1m1 0h1m1 0h4m1 0h2m2 0h2m1 0h1m2 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m2 0h1m1 0h5m1 0h1m1 0h1m1 0h3m1 0h1m3 0h1m2 0h1m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m3 0h1m3 0h1m1 0h1m3 0h1m2 0h1m1 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h2m1 0h6m2 0h1m5 0h2m2 0h1m4 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M10 8.5h1m1 0h1m2 0h4m1 0h2m2 0h1m2 0h3m1 0h3M1 9.5h1m2 0h1m1 0h2m1 0h3m3 0h1m2 0h1m1 0h1m2 0h2m1 0h2m2 0h5m1 0h1M2 10.5h1m2 0h2m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m2 0h1m1 0h1m2 0h3m1 0h2m2 0h1m1 0h2M3 11.5h2m1 0h2m1 0h4m1 0h1m4 0h1m1 0h1m1 0h1m4 0h2m2 0h1m1 0h1m3 0h3M1 12.5h2m2 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m2 0h1m2 0h1m3 0h1m3 0h1m1 0h1m1 0h1m2 0h3M1 13.5h1m1 0h1m1 0h1m1 0h1m4 0h1m2 0h2m1 0h1m2 0h1m1 0h1m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3M2 14.5h1m3 0h1m1 0h1m2 0h1m1 0h3m1 0h1m3 0h2m1 0h1m4 0h1m2 0h2m1 0h1m1 0h1m1 0h1M5 15.5h1m1 0h3m3 0h2m3 0h3m1 0h1m1 0h1m3 0h2m1 0h1m1 0h1m2 0h4m1 0h1M1 16.5h1m3 0h1m4 0h1m1 0h4m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m4 0h1m1 0h1m1 0h2m2 0h1m1 0h1M1 17.5h4m2 0h1m1 0h1m2 0h1m1 0h1m1 0h1m6 0h1m2 0h3m2 0h1m1 0h1m3 0h2m2 0h1M2 18.5h1m3 0h1m1 0h1m1 0h5m3 0h8m1 0h2m2 0h1m1 0h2m1 0h1m1 0h2m1 0h1M1 19.5h1m3 0h1m1 0h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h1m2 0h1m1 0h2m1 0h1m4 0h1m1 0h1M1 20.5h1m4 0h1m5 0h2m2 0h1m4 0h2m1 0h1m4 0h4m1 0h2m4 0h1M1 21.5h5m1 0h1m1 0h3m1 0h2m1 0h3m1 0h2m1 0h3m2 0h4m1 0h1m1 0h1m1 0h1m1 0h3M1 22.5h1m2 0h1m6 0h2m1 0h1m1 0h1m3 0h7m1 0h4m1 0h2m1 0h2m1 0h2M1 23.5h2m1 0h1m2 0h4m6 0h1m1 0h4m4 0h1m3 0h2m2 0h1m2 0h2m1 0h1M1 24.5h1m2 0h2m2 0h2m2 0h3m1 0h1m1 0h1m1 0h5m1 0h1m2 0h1m1 0h3m1 0h2m1 0h2m1 0h1M5 25.5h1m1 0h1m1 0h1m4 0h2m4 0h2m2 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h2m2 0h1M2 26.5h1m1 0h1m1 0h1m1 0h3m1 0h4m3 0h1m3 0h2m2 0h1m3 0h6m4 0h1M1 27.5h2m2 0h3m2 0h1m4 0h2m2 0h2m2 0h2m2 0h1m7 0h1m1 0h3m1 0h1M1 28.5h1m1 0h1m2 0h1m1 0h2m4 0h1m2 0h4m5 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2M2 29.5h1m4 0h1m1 0h1m3 0h1m4 0h1m1 0h1m3 0h5m3 0h2m2 0h3M5 30.5h1m2 0h2m1 0h2m3 0h1m1 0h1m1 0h3m2 0h1m1 0h2m2 0h1m1 0h2m5 0h1M1 31.5h1m1 0h3m1 0h1m1 0h3m1 0h2m2 0h1m1 0h1m4 0h2m1 0h5m1 0h3m1 0h1m2 0h2M4 32.5h1m1 0h1m1 0h1m2 0h3m1 0h1m9 0h9m3 0h3M1 33.5h1m3 0h1m1 0h1m2 0h2m1 0h1m2 0h1m4 0h3m5 0h1m3 0h5m3 0h1M9 34.5h3m2 0h2m2 0h1m2 0h1m1 0h6m1 0h4m3 0h5M1 35.5h7m2 0h1m1 0h1m2 0h3m1 0h9m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h2M1 36.5h1m5 0h1m1 0h2m1 0h1m3 0h2m1 0h3m2 0h5m2 0h3m3 0h2m2 0h1M1 37.5h1m1 0h3m1 0h1m3 0h1m1 0h2m4 0h2m3 0h2m1 0h3m1 0h1m1 0h8M1 38.5h1m1 0h3m1 0h1m1 0h5m5 0h1m1 0h1m1 0h3m3 0h2m1 0h5m3 0h2M1 39.5h1m1 0h3m1 0h1m2 0h1m1 0h1m2 0h2m2 0h1m2 0h3m1 0h1m4 0h1m1 0h1m2 0h2m3 0h1M1 40.5h1m5 0h1m3 0h4m4 0h1m1 0h1m1 0h2m1 0h3m1 0h5m3 0h2M1 41.5h7m1 0h3m5 0h1m2 0h2m1 0h1m2 0h2m1 0h4m3 0h2\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-31T22:31:30.349Z",
+      "expiresAt": "2026-10-31T23:01:30.349Z",
+      "txId": "SHF85890349T7",
+      "failureReason": "Valor recebido (R$ 1.00) diverge do valor faturado (R$ 497.00)",
+      "confirmedAt": "2026-10-31T22:31:30.371Z",
+      "endToEndId": "E119734794731793485890369"
+    },
+    {
+      "id": "pix_1793485865974_c7o2",
+      "orderId": "sub_1793485865974_9lct",
+      "companyId": "comp_1793485777595_ac57",
+      "customerName": "Auditoria Alpha S.A.",
+      "customerEmail": "audit@alpha.corp.br",
+      "customerCpfOrCnpj": "99.888.777/0001-66",
+      "planTier": "Cosmic Growth",
+      "amount": 497,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406497.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF85865969TB6304E1DD",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m1 0h1m4 0h1m1 0h2m1 0h2m1 0h4m2 0h5m2 0h7M1 2.5h1m5 0h1m3 0h1m4 0h2m1 0h1m1 0h3m1 0h2m4 0h2m2 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m3 0h1m1 0h1m1 0h1m2 0h4m1 0h1m3 0h6m2 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h3m3 0h1m1 0h1m1 0h1m2 0h1m2 0h2m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m5 0h1m1 0h1m3 0h1m2 0h1m1 0h4m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h1m2 0h1m1 0h2m1 0h1m1 0h2m1 0h1m2 0h4m1 0h2m3 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h2m1 0h1m2 0h4m1 0h2m2 0h1m2 0h3m1 0h3M1 9.5h1m3 0h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m7 0h1m1 0h1m2 0h5m2 0h1M2 10.5h4m2 0h2m4 0h2m1 0h1m3 0h1m2 0h1m3 0h1m3 0h2m1 0h5m1 0h1M1 11.5h1m3 0h4m4 0h1m1 0h4m1 0h1m1 0h1m1 0h4m2 0h2m1 0h1m1 0h3m3 0h1M1 12.5h3m2 0h1m2 0h2m1 0h3m3 0h1m2 0h1m2 0h1m1 0h1m2 0h4m1 0h1m1 0h1m3 0h2M1 13.5h1m1 0h1m2 0h3m2 0h8m1 0h2m4 0h1m1 0h2m1 0h5m1 0h4M1 14.5h5m3 0h2m7 0h3m2 0h1m1 0h3m1 0h3m3 0h2m1 0h1m1 0h2M1 15.5h1m2 0h2m1 0h4m1 0h3m2 0h2m1 0h1m3 0h2m6 0h3m1 0h1m1 0h4M1 16.5h2m5 0h1m1 0h4m1 0h1m1 0h1m1 0h3m2 0h1m3 0h2m1 0h1m1 0h1m2 0h1m1 0h2M1 17.5h4m2 0h1m1 0h1m4 0h1m8 0h1m2 0h3m2 0h3m3 0h2m2 0h1M1 18.5h2m1 0h1m1 0h1m1 0h1m2 0h2m3 0h1m1 0h1m1 0h2m1 0h2m2 0h1m5 0h1m2 0h6M3 19.5h5m1 0h2m1 0h1m1 0h2m3 0h1m2 0h5m2 0h2m2 0h2m2 0h4M1 20.5h1m4 0h1m4 0h3m2 0h1m4 0h2m1 0h1m2 0h1m1 0h4m1 0h2m4 0h1M1 21.5h1m4 0h3m1 0h4m1 0h2m8 0h4m2 0h2m3 0h3m1 0h1M3 22.5h2m1 0h1m2 0h3m1 0h2m3 0h3m2 0h1m2 0h2m1 0h1M3 23.5h1m1 0h5m1 0h6m1 0h1m4 0h4m1 0h3m2 0h2m1 0h2m2 0h1M1 24.5h4m1 0h1m4 0h1m1 0h1m1 0h3m4 0h1m4 0h1m2 0h2M2 25.5h1m4 0h3m1 0h1m3 0h1m1 0h1m3 0h1m1 0h2m1 0h5m6 0h1M1 26.5h1m1 0h1m1 0h1m5 0h1m4 0h3m1 0h3m2 0h2m1 0h3m6 0h4M1 27.5h2m1 0h1m2 0h1m5 0h1m1 0h1m4 0h1m1 0h4m1 0h2m2 0h1m2 0h2m2 0h4M1 28.5h3m2 0h1m2 0h1m1 0h1m6 0h2m3 0h1m5 0h2m4 0h2m3 0h1M1 29.5h2m4 0h1m1 0h1m3 0h1m4 0h1m1 0h1m3 0h5m3 0h7M1 30.5h1m2 0h2m2 0h4m1 0h1m4 0h4m5 0h1m4 0h1m1 0h1m2 0h1M5 31.5h3m3 0h1m2 0h2m1 0h2m2 0h2m6 0h1m5 0h2m2 0h1m1 0h1M4 32.5h1m1 0h1m1 0h1m2 0h3m1 0h1m9 0h7m1 0h1m3 0h3M1 33.5h3m2 0h5m2 0h3m1 0h2m1 0h1m1 0h1m1 0h1m1 0h2m2 0h1m1 0h8M9 34.5h6m1 0h1m2 0h1m2 0h2m2 0h1m5 0h2m3 0h2m2 0h1M1 35.5h7m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m9 0h1m1 0h1m1 0h2m1 0h1m1 0h3M1 36.5h1m5 0h1m2 0h1m3 0h1m1 0h1m1 0h2m3 0h1m1 0h1m2 0h4m1 0h1m3 0h1m1 0h1M1 37.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m1 0h1m1 0h1m3 0h6m2 0h7m1 0h3M1 38.5h1m1 0h3m1 0h1m3 0h1m2 0h5m1 0h1m1 0h1m3 0h3m2 0h1m5 0h3M1 39.5h1m1 0h3m1 0h1m4 0h2m1 0h1m7 0h4m1 0h1m4 0h2m1 0h1m3 0h2M1 40.5h1m5 0h1m4 0h2m3 0h1m1 0h3m2 0h1m2 0h5m1 0h3m3 0h1m1 0h1M1 41.5h7m1 0h3m5 0h1m2 0h2m1 0h1m2 0h2m1 0h4m3 0h2\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-31T22:31:05.969Z",
+      "expiresAt": "2026-10-31T23:01:05.969Z",
+      "txId": "SHF85865969TB",
+      "failureReason": "Valor recebido (R$ 1.00) diverge do valor faturado (R$ 497.00)",
+      "confirmedAt": "2026-10-31T22:31:05.994Z",
+      "endToEndId": "E119734794731793485865992"
+    },
+    {
+      "id": "pix_1793485777617_3b0f",
+      "orderId": "sub_1793485777617_v37v",
+      "companyId": "comp_1793485777595_ac57",
+      "customerName": "Auditoria Alpha S.A.",
+      "customerEmail": "audit@alpha.corp.br",
+      "customerCpfOrCnpj": "99.888.777/0001-66",
+      "planTier": "Cosmic Growth",
+      "amount": 497,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406497.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF857775958O6304BFC5",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m3 0h1m4 0h1m2 0h1m2 0h1m1 0h3m1 0h1m1 0h2m3 0h7M1 2.5h1m5 0h1m1 0h2m1 0h4m1 0h2m4 0h2m1 0h1m1 0h1m1 0h4m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m3 0h2m1 0h3m3 0h1m1 0h4m3 0h1m1 0h3m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m4 0h2m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1m3 0h1m2 0h1m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m4 0h2m1 0h2m3 0h1m2 0h3m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h1m2 0h2m1 0h3m1 0h2m2 0h1m1 0h1m6 0h1m1 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M10 8.5h3m1 0h3m1 0h1m2 0h1m1 0h2m1 0h3m2 0h1m1 0h1M1 9.5h1m1 0h1m1 0h1m1 0h1m2 0h3m7 0h2m1 0h1m2 0h1m4 0h2m4 0h1m2 0h1M1 10.5h2m2 0h2m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m2 0h1m1 0h1m2 0h3m1 0h2m2 0h1m1 0h2M3 11.5h3m1 0h4m1 0h1m4 0h1m1 0h3m4 0h1m1 0h1m5 0h2m3 0h3M2 12.5h2m1 0h2m1 0h6m3 0h2m1 0h2m1 0h2m5 0h2m2 0h1m1 0h1m1 0h1m1 0h1M1 13.5h3m1 0h1m1 0h1m4 0h2m1 0h4m2 0h1m1 0h1m4 0h1m2 0h1m1 0h1m1 0h1m1 0h1m1 0h3M2 14.5h1m2 0h1m9 0h1m4 0h5m1 0h1m2 0h1m2 0h1m1 0h2m1 0h3m1 0h1M3 15.5h1m1 0h4m5 0h2m1 0h1m1 0h4m4 0h2m1 0h4m3 0h2m2 0h1M1 16.5h1m3 0h1m4 0h1m3 0h4m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m2 0h1m1 0h1M1 17.5h1m1 0h3m1 0h3m1 0h1m5 0h1m2 0h1m6 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1M2 18.5h2m4 0h4m1 0h3m3 0h2m1 0h2m1 0h2m1 0h1m1 0h2m2 0h1m3 0h1m2 0h1M1 19.5h1m3 0h1m1 0h1m5 0h1m1 0h2m1 0h1m2 0h1m1 0h1m3 0h3m1 0h1m4 0h1m1 0h1M1 20.5h2m2 0h2m1 0h1m3 0h3m1 0h2m2 0h5m5 0h2m2 0h1m3 0h1m1 0h2M1 21.5h2m1 0h4m3 0h7m2 0h1m2 0h1m1 0h1m1 0h3m1 0h1m3 0h3m2 0h2M1 22.5h1m1 0h1m4 0h2m2 0h1m1 0h1m1 0h1m3 0h7m1 0h4m1 0h2m1 0h2m1 0h2M1 23.5h1m2 0h2m1 0h5m2 0h1m4 0h1m1 0h3m2 0h2m1 0h1m1 0h1m7 0h1M1 24.5h1m2 0h3m6 0h4m3 0h1m1 0h2m2 0h2m1 0h4m2 0h1m2 0h1m2 0h1M3 25.5h1m1 0h1m1 0h3m4 0h2m4 0h2m2 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h2m2 0h1M1 26.5h1m2 0h3m2 0h5m1 0h1m1 0h1m1 0h2m3 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1M3 27.5h1m1 0h3m1 0h2m1 0h1m3 0h1m1 0h4m1 0h1m6 0h1m2 0h1m1 0h4m2 0h1M1 28.5h1m1 0h1m1 0h1m2 0h2m4 0h1m2 0h4m5 0h1m3 0h1m1 0h1m1 0h3m1 0h1m1 0h2M1 29.5h1m5 0h3m1 0h1m1 0h2m2 0h2m4 0h3m1 0h3m3 0h1m2 0h2m3 0h1M3 30.5h1m1 0h2m1 0h1m2 0h2m2 0h2m3 0h1m1 0h1m1 0h2m2 0h1m1 0h2m1 0h2m1 0h1m2 0h2M1 31.5h1m1 0h3m1 0h1m1 0h6m2 0h1m1 0h1m4 0h2m1 0h5m1 0h3m1 0h1m2 0h2M2 32.5h1m1 0h3m5 0h6m2 0h1m2 0h1m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1M1 33.5h1m1 0h1m1 0h3m1 0h5m1 0h1m2 0h1m3 0h3m2 0h1m1 0h2m2 0h5m1 0h1m1 0h1M9 34.5h3m2 0h2m2 0h1m2 0h1m1 0h6m1 0h4m3 0h5M1 35.5h7m3 0h2m2 0h2m2 0h1m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h2m1 0h1M1 36.5h1m5 0h1m2 0h2m2 0h1m1 0h5m4 0h2m1 0h1m1 0h4m3 0h3m1 0h1M1 37.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m4 0h2m3 0h2m1 0h3m1 0h1m1 0h8M1 38.5h1m1 0h3m1 0h1m2 0h6m1 0h1m1 0h3m2 0h3m3 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 39.5h1m1 0h3m1 0h1m1 0h2m5 0h1m1 0h2m1 0h3m2 0h2m2 0h2m5 0h1m1 0h1m1 0h1M1 40.5h1m5 0h1m3 0h4m4 0h1m1 0h1m1 0h2m1 0h3m1 0h5m3 0h2M1 41.5h7m1 0h2m3 0h1m6 0h1m5 0h1m2 0h2m3 0h4m2 0h1\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-31T22:29:37.595Z",
+      "expiresAt": "2026-10-31T22:59:37.595Z",
+      "txId": "SHF857775958O",
+      "failureReason": "Valor recebido (R$ 1.00) diverge do valor faturado (R$ 497.00)",
+      "confirmedAt": "2026-10-31T22:29:37.636Z",
+      "endToEndId": "E119734794731793485777634"
+    },
+    {
+      "id": "pix_1793485209679_ejuq",
+      "orderId": "sub_1793485209679_b86w",
+      "companyId": "comp_1793485209658_6uz5",
+      "customerName": "Tech Solutions",
+      "customerEmail": "contato@techsolutions.com",
+      "customerCpfOrCnpj": "12.345.678/0001-90",
+      "planTier": "Astral Starter",
+      "amount": 197,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126330014br.gov.bcb.pix0111119734794735204000053039865406197.005802BR5914Alifer Madeiro6009SAO PAULO62170513SHF85209658PN63045EF4",
+      "qrCodeSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 43 43\" shape-rendering=\"crispEdges\"><path fill=\"#ffffff\" d=\"M0 0h43v43H0z\"/><path stroke=\"#050508\" d=\"M1 1.5h7m7 0h1m1 0h1m1 0h1m1 0h1m1 0h5m1 0h1m1 0h1m1 0h1m1 0h7M1 2.5h1m5 0h1m2 0h2m2 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h4m1 0h2m1 0h1m2 0h2m2 0h2m1 0h2m1 0h1m1 0h1m2 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h3m1 0h4m2 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h2m2 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h2m6 0h1m1 0h1m1 0h1m3 0h1m4 0h4m1 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h4m2 0h2m2 0h3m1 0h1m1 0h1m1 0h2m1 0h1m1 0h2M1 9.5h1m1 0h5m4 0h1m2 0h3m2 0h1m1 0h1m3 0h4m1 0h3m1 0h5M1 10.5h1m14 0h2m2 0h1m1 0h1m1 0h1m1 0h2m6 0h4m2 0h2M5 11.5h1m1 0h2m2 0h2m2 0h2m2 0h2m1 0h2m2 0h2m1 0h1m3 0h1M1 12.5h1m1 0h1m5 0h1m7 0h1m1 0h1m1 0h1m1 0h1m1 0h2m5 0h1m4 0h1m2 0h1M2 13.5h1m1 0h1m2 0h1m1 0h1m1 0h5m1 0h2m3 0h1m4 0h1m1 0h1m1 0h1m2 0h2m1 0h1M1 14.5h1m1 0h4m5 0h1m1 0h1m3 0h2m1 0h3m1 0h1m4 0h7m2 0h1m1 0h1M6 15.5h7m1 0h1m1 0h2m1 0h2m2 0h1m5 0h3m2 0h2m1 0h4M2 16.5h1m1 0h3m2 0h2m2 0h1m1 0h2m1 0h1m1 0h2m1 0h1m1 0h1m4 0h1m1 0h1m2 0h1m1 0h3m1 0h1M1 17.5h1m1 0h1m3 0h2m1 0h1m4 0h1m4 0h4m4 0h1m2 0h2m1 0h1m2 0h1m1 0h3M1 18.5h1m1 0h1m2 0h1m2 0h1m1 0h2m1 0h2m2 0h1m3 0h3m3 0h1m3 0h1m1 0h1m1 0h2m3 0h1M3 19.5h5m1 0h1m3 0h3m1 0h2m3 0h1m3 0h1m4 0h1m1 0h4m1 0h4M2 20.5h1m3 0h1m7 0h6m1 0h3m1 0h3m4 0h1m1 0h1m1 0h2m2 0h2M2 21.5h3m2 0h1m2 0h1m1 0h4m1 0h1m2 0h3m2 0h1m5 0h1m1 0h2m2 0h1m1 0h1M11 22.5h3m2 0h4m1 0h3m4 0h2m2 0h3m3 0h3M1 23.5h1m1 0h1m3 0h2m3 0h1m1 0h4m1 0h1m6 0h1m1 0h1m2 0h1m1 0h3m4 0h2M2 24.5h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h2m2 0h4m1 0h1m1 0h1m5 0h3m3 0h1M4 25.5h1m2 0h1m2 0h3m1 0h1m1 0h2m2 0h1m1 0h3m4 0h2m1 0h3m2 0h4M1 26.5h2m1 0h2m2 0h2m1 0h1m2 0h2m1 0h2m6 0h1m1 0h1m1 0h2m1 0h3m2 0h1M4 27.5h1m2 0h1m2 0h3m2 0h1m1 0h4m1 0h1m4 0h4m3 0h1m1 0h5M2 28.5h2m1 0h2m2 0h1m2 0h3m2 0h1m6 0h2m5 0h1m3 0h1m1 0h1m2 0h2M1 29.5h1m1 0h1m2 0h4m1 0h1m2 0h5m2 0h2m1 0h2m7 0h2m1 0h2m1 0h2M1 30.5h3m1 0h2m2 0h1m2 0h8m2 0h1m3 0h1m1 0h1m2 0h2m2 0h1m1 0h4M1 31.5h1m1 0h2m2 0h3m2 0h4m1 0h1m1 0h1m1 0h5m4 0h2m5 0h1m1 0h1M1 32.5h1m1 0h3m2 0h1m3 0h2m1 0h2m1 0h2m3 0h2m1 0h3m3 0h2m1 0h2m1 0h2m1 0h1M1 33.5h1m2 0h1m1 0h3m3 0h2m3 0h2m2 0h1m2 0h1m3 0h1m1 0h1m2 0h5m2 0h1M9 34.5h7m3 0h3m1 0h1m3 0h2m4 0h1m3 0h1m1 0h3M1 35.5h7m3 0h2m1 0h2m1 0h1m1 0h1m3 0h3m2 0h2m1 0h3m1 0h1m1 0h3m1 0h1M1 36.5h1m5 0h1m1 0h1m2 0h3m1 0h2m6 0h1m3 0h1m4 0h1m3 0h1m1 0h1m1 0h1M1 37.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h7m5 0h1m1 0h6m2 0h1M1 38.5h1m1 0h3m1 0h1m1 0h2m4 0h1m1 0h2m2 0h1m7 0h1m1 0h4m2 0h1m2 0h1M1 39.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h2m6 0h1m1 0h4m1 0h3m1 0h1m2 0h1M1 40.5h1m5 0h1m3 0h3m3 0h2m1 0h2m1 0h1m1 0h1m1 0h3m3 0h2m1 0h2m1 0h1M1 41.5h7m1 0h1m1 0h1m2 0h4m4 0h2m5 0h3m1 0h2m1 0h5\"/></svg>\n",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-31T22:20:09.658Z",
+      "expiresAt": "2026-10-31T22:50:09.658Z",
+      "txId": "SHF85209658PN",
+      "confirmedAt": "2026-10-31T22:20:17.414Z",
+      "endToEndId": "E0000000020261031222000001"
+    },
+    {
+      "id": "pix_initial_01",
+      "orderId": "ord_2026_01",
+      "companyId": "comp_vertice_tech",
+      "customerName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "customerCpfOrCnpj": "42.891.023/0001-94",
+      "planTier": "Infinity Enterprise",
+      "amount": 149000,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126360014br.gov.bcb.pix0111119734794735204000053039865410149000.005802BR5914Alifer Madeiro6009SAO PAULO62110507SHEFA016304E8A2",
+      "status": "CONFIRMED",
+      "createdAt": "2026-01-15T09:30:00Z",
+      "expiresAt": "2026-01-15T10:30:00Z",
+      "confirmedAt": "2026-01-15T10:00:00Z",
+      "txId": "SHEFA01"
+    }
+  ],
+  "commissions": [
+    {
+      "id": "com_001",
+      "orderId": "ord_2026_01",
+      "partnerName": "Rede de Expansão Alfa",
+      "partnerEmail": "parceiros@alfaexp.com.br",
+      "rate": 10,
+      "amount": 14900,
+      "status": "liquidado",
+      "date": "2026-01-16T00:00:00Z"
+    }
+  ],
+  "governance": {
+    "isEmergencyPaused": false,
+    "financialSpendingLimit": 2500,
+    "maxConcurrentTasks": 5,
+    "autoRetryCount": 3,
+    "pixKey": "11973479473",
+    "pixKeyType": "TELEFONE CELULAR",
+    "masterRecipient": "Alifer Madeiro (Master Owner)",
+    "lastUpdated": "2026-10-31T10:05:16.132Z",
+    "spendingLimit": 1000
+  },
+  "finances": [
+    {
+      "id": "fin_1793627155654_n73r",
+      "companyId": "comp_1793485777595_ac57",
+      "title": "Liquidação Pix: Cosmic Growth (Auditoria Alpha S.A.)",
+      "type": "assinatura",
+      "amount": 497,
+      "date": "2026-11-02",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_1793627150098_gcpw",
+      "companyId": "comp_1793627150069_5hiv",
+      "title": "Liquidação Pix: Cosmic Growth (Vértice Tech Soluções)",
+      "type": "assinatura",
+      "amount": 497,
+      "date": "2026-11-02",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_1793485890371_e12i",
+      "companyId": "comp_1793485777595_ac57",
+      "title": "Liquidação Pix: Cosmic Growth (Auditoria Alpha S.A.)",
+      "type": "assinatura",
+      "amount": 497,
+      "date": "2026-10-31",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_1793485865994_yogh",
+      "companyId": "comp_1793485777595_ac57",
+      "title": "Liquidação Pix: Cosmic Growth (Auditoria Alpha S.A.)",
+      "type": "assinatura",
+      "amount": 497,
+      "date": "2026-10-31",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_1793485777636_1xv4",
+      "companyId": "comp_1793485777595_ac57",
+      "title": "Liquidação Pix: Cosmic Growth (Auditoria Alpha S.A.)",
+      "type": "assinatura",
+      "amount": 497,
+      "date": "2026-10-31",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_1793485217415_p2e3",
+      "companyId": "comp_1793485209658_6uz5",
+      "title": "Liquidação Pix: Astral Starter (Tech Solutions)",
+      "type": "assinatura",
+      "amount": 197,
+      "date": "2026-10-31",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_001",
+      "companyId": "global",
+      "title": "Assinatura Anual Enterprise - Vértice Tech",
+      "type": "assinatura",
+      "amount": 180000,
+      "date": "2026-10-01",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_002",
+      "companyId": "global",
+      "title": "Assinatura Anual Growth - Aurora Logística",
+      "type": "assinatura",
+      "amount": 72000,
+      "date": "2026-10-15",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_003",
+      "companyId": "global",
+      "title": "Custo de Infraestrutura de Nuvem & GPU Dedicada",
+      "type": "custo",
+      "amount": 12450,
+      "date": "2026-10-25",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_004",
+      "companyId": "global",
+      "title": "Solicitação de Orçamento: Campanha Externa de Tráfego Q4",
+      "type": "custo",
+      "amount": 25000,
+      "date": "2026-10-31",
+      "status": "aprovacao_necessaria"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_genesis",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "actorEmail": "system@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "INIT_OBSERVATORY",
+      "companyId": "global",
+      "details": "Observatório SHEFA AYIN inicializado com 8 departamentos e governança ativa.",
+      "hash": "93f260234c683fecabac1756291727faa72fce5e1b66e942cbddc565775b2c15"
+    },
+    {
+      "id": "audit_1793439180862_d1ye",
+      "timestamp": "2026-10-31T09:33:00.862Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "76a5bb8000ef4de5848780ec4e7cc8bb0b86dbc3ff53be382fb7cf8b980c2f04"
+    },
+    {
+      "id": "audit_1793439181734_vlx9",
+      "timestamp": "2026-10-31T09:33:01.733Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "COMMAND_DISPATCHED",
+      "companyId": "global",
+      "details": "Comando: \"Varredura de concorrentes no setor de IA corporativa com foco em proteção de margem financeira\". Missão criada: mis_1793439181733_bnxdt. Sensível: false",
+      "hash": "718ac9a53fd4bdee854f849957b4d2985b2381c05258b574c6f77dfe306de4f3"
+    },
+    {
+      "id": "audit_1793440572605_qy1n",
+      "timestamp": "2026-10-31T09:56:12.605Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "OPERATOR",
+      "action": "MISSION_COMPLETED",
+      "companyId": "global",
+      "details": "Missão \"Missão: Varredura de concorrentes no setor de IA corpora...\" finalizada com sucesso.",
+      "hash": "11aa2e799a0e6b8d8bee70ee02930ebf47400689efec3135520512e47bec4852"
+    },
+    {
+      "id": "audit_1793441116131_h1ug",
+      "timestamp": "2026-10-31T10:05:16.131Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "EMERGENCY_PAUSE_TOGGLE",
+      "companyId": "MASTER_PLATFORM",
+      "details": "Pausa geral de emergência alterada para true",
+      "hash": "e697b7f50ba458dca09e4f29a439375507c4b4ec55335fd848d916e27f61d9d6"
+    },
+    {
+      "id": "audit_1793482059396_r7j4",
+      "timestamp": "2026-10-31T21:27:39.396Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "581a678991045fff73271bbf472907864c3c770e72078fd6dec4bc8642f6e229"
+    },
+    {
+      "id": "audit_1793482363584_bfho",
+      "timestamp": "2026-10-31T21:32:43.584Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "6f03a67a65e32c8d20192e725c37c8018ec86713896536a6e2a796b58c13b3a5"
+    },
+    {
+      "id": "audit_1793482366566_4ci3",
+      "timestamp": "2026-10-31T21:32:46.566Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "0f744685db0800d534d3e0422fd0c3afd5156544196ded25821104d5eeba4377"
+    },
+    {
+      "id": "audit_1793482419549_1cwf",
+      "timestamp": "2026-10-31T21:33:39.549Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "be53cdf1fd68a8a0a5a1f3942c3a137af835eeb7a9b465e7544217604c67271a"
+    },
+    {
+      "id": "audit_1793482427144_aot2",
+      "timestamp": "2026-10-31T21:33:47.144Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "EMERGENCY_PAUSE_TRIGGERED",
+      "companyId": "global",
+      "details": "Pausa Geral de Emergência (Kill-Switch) do Master Owner: ATIVADA",
+      "hash": "812ec271774239188a463651489b0290e79bf10661a53c0f2107d5932ef8ed33"
+    },
+    {
+      "id": "audit_1793482430215_kc4j",
+      "timestamp": "2026-10-31T21:33:50.215Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "EMERGENCY_PAUSE_RESUMED",
+      "companyId": "global",
+      "details": "Pausa Geral de Emergência (Kill-Switch) do Master Owner: DESATIVADA",
+      "hash": "b0a8e7ca79d2a047a87c67254b5026ded8e2ac2afeeb53f645f8893e029d1d7b"
+    },
+    {
+      "id": "audit_1793484128091_t74v",
+      "timestamp": "2026-10-31T22:02:08.091Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "e71117922e06db10dbbed786d6a261f32faa5ff4202f7be85c3b81bbaab6ad70"
+    },
+    {
+      "id": "audit_1793484191957_f413",
+      "timestamp": "2026-10-31T22:03:11.957Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "08723c00179d0463e7b27d4b7de0b1822433c6397c33b985bd378d24d24bc52a"
+    },
+    {
+      "id": "audit_1793485197900_vkvy",
+      "timestamp": "2026-10-31T22:19:57.899Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "be65d1893b502f837d434a36af453c26f68a922e5d2acad31718a462777ea392"
+    },
+    {
+      "id": "audit_1793485209680_pwut",
+      "timestamp": "2026-10-31T22:20:09.680Z",
+      "actorEmail": "contato@techsolutions.com",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793485209658_6uz5",
+      "details": "Cobrança Pix de R$ 197.00 gerada para o plano Astral Starter (monthly). TxID: SHF85209658PN",
+      "hash": "97a52540f573b0c3d6f9cb97d29aef3d39c6659cfd4f914e56690eb025ded7ba"
+    },
+    {
+      "id": "audit_1793485217415_94e6",
+      "timestamp": "2026-10-31T22:20:17.415Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793485209658_6uz5",
+      "details": "Pagamento Pix de R$ 197.00 CONFIRMADO. Assinatura sub_1793485209679_b86w ATIVADA com sucesso.",
+      "hash": "d6f49d21e3f12d4486b81df598a93abb7d9784403a461345dba230bacbbde2c1"
+    },
+    {
+      "id": "audit_1793485777575_xqy7",
+      "timestamp": "2026-10-31T22:29:37.575Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "81b1c089da671748ea88a3255afdfa6050dddc1a432da35417504fc21b4861f5"
+    },
+    {
+      "id": "audit_1793485777618_zbns",
+      "timestamp": "2026-10-31T22:29:37.618Z",
+      "actorEmail": "audit@alpha.corp.br",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Cobrança Pix de R$ 497.00 gerada para o plano Cosmic Growth (monthly). TxID: SHF857775958O",
+      "hash": "73ef43d7e410720cb65fac4a33a9ed89205556b1a63c6ec4e591b7356a81f115"
+    },
+    {
+      "id": "audit_1793485777623_jcyl",
+      "timestamp": "2026-10-31T22:29:37.623Z",
+      "actorEmail": "unauthorized@webhook.probe",
+      "actorRole": "OPERATOR",
+      "action": "PIX_WEBHOOK_AUTH_FAILED",
+      "companyId": "global",
+      "details": "Tentativa de conciliação Pix sem assinatura ou secret válido para TxID: SHF857775958O",
+      "hash": "ce709143350798826d962cff8ae65f40a9a332f23c4a7f12bc1a34bf0a257f25"
+    },
+    {
+      "id": "audit_1793485777632_mk0s",
+      "timestamp": "2026-10-31T22:29:37.632Z",
+      "actorEmail": "webhook@bacen.gov.br",
+      "actorRole": "OPERATOR",
+      "action": "PIX_AMOUNT_MISMATCH",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Tentativa de pagamento com valor divergente detectada: Esperado R$ 497, Recebido R$ 1",
+      "hash": "839046a882a45a53a170e413adf3ea3b66465868017b36280641cff6d41a3d9a"
+    },
+    {
+      "id": "audit_1793485777637_5r9i",
+      "timestamp": "2026-10-31T22:29:37.637Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Pagamento Pix de R$ 497.00 CONFIRMADO. Assinatura sub_1793485777617_v37v ATIVADA com sucesso.",
+      "hash": "6d8a805869450488890ae7031535a4e223fc7f07ad8c31eae47e69b7b36f6be3"
+    },
+    {
+      "id": "audit_1793485777666_a8kb",
+      "timestamp": "2026-10-31T22:29:37.666Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_SUSPENDED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485777617_v37v bloqueada por inadimplência ou ordem do Master Owner.",
+      "hash": "d18988a171537bde93e11fdfe558546691dca3b7ede06c0ccd1ed5b9aaf93127"
+    },
+    {
+      "id": "audit_1793485777668_w663",
+      "timestamp": "2026-10-31T22:29:37.668Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_REACTIVATED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485777617_v37v reativada. Acessos e cotas corporativas restabelecidos.",
+      "hash": "85e4ec43600d8552ae30062d43b7b123321e8958be2e4601ff40ee98fcac923c"
+    },
+    {
+      "id": "audit_1793485777672_lxrz",
+      "timestamp": "2026-10-31T22:29:37.672Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_CANCELED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485777617_v37v (Cosmic Growth) cancelada com sucesso.",
+      "hash": "5656faf5883b1acbdae8ef553784c581226b77fea7f316cd062b926e1b8dd329"
+    },
+    {
+      "id": "audit_1793485777682_76w4",
+      "timestamp": "2026-10-31T22:29:37.682Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Valadares Log. Valor: R$ 18783.00 (Desconto: 10%)",
+      "hash": "8086955e57ec65cfbbc7e5ae410f47b58c595f251ebba2643253c0ccbac716c7"
+    },
+    {
+      "id": "audit_1793485865902_1xh3",
+      "timestamp": "2026-10-31T22:31:05.902Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "4e99bdda16c6135b90c8cd2eb515526e5201a31223852af21da0fbcee46e8fc5"
+    },
+    {
+      "id": "audit_1793485865975_1kg0",
+      "timestamp": "2026-10-31T22:31:05.975Z",
+      "actorEmail": "audit@alpha.corp.br",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Cobrança Pix de R$ 497.00 gerada para o plano Cosmic Growth (monthly). TxID: SHF85865969TB",
+      "hash": "cae7975284a94d49331fc09f7674f9b1d8fd4b1e3606c40b5cb161eb57e0dccb"
+    },
+    {
+      "id": "audit_1793485865981_rk7f",
+      "timestamp": "2026-10-31T22:31:05.981Z",
+      "actorEmail": "unauthorized@webhook.probe",
+      "actorRole": "OPERATOR",
+      "action": "PIX_WEBHOOK_AUTH_FAILED",
+      "companyId": "global",
+      "details": "Tentativa de conciliação Pix sem assinatura ou secret válido para TxID: SHF85865969TB",
+      "hash": "ec89a41af0be4c475454047d71bda66ad998a26435ceee608e0e005a67a6b5e4"
+    },
+    {
+      "id": "audit_1793485865989_ltep",
+      "timestamp": "2026-10-31T22:31:05.989Z",
+      "actorEmail": "webhook@bacen.gov.br",
+      "actorRole": "OPERATOR",
+      "action": "PIX_AMOUNT_MISMATCH",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Tentativa de pagamento com valor divergente detectada: Esperado R$ 497, Recebido R$ 1",
+      "hash": "92b126f3c82b5661b0f95bb9f83f932fecfa980488348838a09ca4d7f134a8a6"
+    },
+    {
+      "id": "audit_1793485865996_wrsr",
+      "timestamp": "2026-10-31T22:31:05.996Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Pagamento Pix de R$ 497.00 CONFIRMADO. Assinatura sub_1793485865974_9lct ATIVADA com sucesso.",
+      "hash": "c27f31b1f3d942b56fb24ebf50fba6857b1c3c4247a66e0d7d80aa6778576c38"
+    },
+    {
+      "id": "audit_1793485866015_gbq7",
+      "timestamp": "2026-10-31T22:31:06.015Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_SUSPENDED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485865974_9lct bloqueada por inadimplência ou ordem do Master Owner.",
+      "hash": "56379917327134bc84cdbd688e6f3b82cd76ca0f7f645dadfdbfd68de991cccf"
+    },
+    {
+      "id": "audit_1793485866019_2ry4",
+      "timestamp": "2026-10-31T22:31:06.019Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_REACTIVATED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485865974_9lct reativada. Acessos e cotas corporativas restabelecidos.",
+      "hash": "ae0d9f9aafe0b361e35705f7fa5f7474b51a20487ec099c7ce3c3bdff15eb6dc"
+    },
+    {
+      "id": "audit_1793485866024_zjv8",
+      "timestamp": "2026-10-31T22:31:06.024Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_CANCELED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485865974_9lct (Cosmic Growth) cancelada com sucesso.",
+      "hash": "b138db1cf0a2e79421bfdfcd6d244a75d71fbbc6c99dfddf995a1fb56c785c60"
+    },
+    {
+      "id": "audit_1793485866037_j7o2",
+      "timestamp": "2026-10-31T22:31:06.037Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Valadares Log. Valor: R$ 18783.00 (Desconto: 10%)",
+      "hash": "43b5ad3831bec1262fa2cbc792dd80c9eceab2e6b2893c77954feacc3864033e"
+    },
+    {
+      "id": "audit_1793485890267_9emw",
+      "timestamp": "2026-10-31T22:31:30.267Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "c390cbed856fef0e45b2aec3ac4b2de4d4d88ae4c9067f38642540fe7ed106e1"
+    },
+    {
+      "id": "audit_1793485890335_mr8o",
+      "timestamp": "2026-10-31T22:31:30.334Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "67e919c17af77798733ed19e0d6773e93981268113877ab7bad31ea6657cac78"
+    },
+    {
+      "id": "audit_1793485890354_x57h",
+      "timestamp": "2026-10-31T22:31:30.354Z",
+      "actorEmail": "audit@alpha.corp.br",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Cobrança Pix de R$ 497.00 gerada para o plano Cosmic Growth (monthly). TxID: SHF85890349T7",
+      "hash": "43feb5328bbd4bb11412afaca4d3f8fad1cbff5ef2d148a8c9914d761629a4a3"
+    },
+    {
+      "id": "audit_1793485890358_5jsa",
+      "timestamp": "2026-10-31T22:31:30.358Z",
+      "actorEmail": "unauthorized@webhook.probe",
+      "actorRole": "OPERATOR",
+      "action": "PIX_WEBHOOK_AUTH_FAILED",
+      "companyId": "global",
+      "details": "Tentativa de conciliação Pix sem assinatura ou secret válido para TxID: SHF85890349T7",
+      "hash": "a818548f42476ebffa8d7cb1d6645118221b6eeb54aec3d94fb20f2b265d65e8"
+    },
+    {
+      "id": "audit_1793485890367_0zw4",
+      "timestamp": "2026-10-31T22:31:30.367Z",
+      "actorEmail": "webhook@bacen.gov.br",
+      "actorRole": "OPERATOR",
+      "action": "PIX_AMOUNT_MISMATCH",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Tentativa de pagamento com valor divergente detectada: Esperado R$ 497, Recebido R$ 1",
+      "hash": "a16bdf5c920c5b5d1484e6d37a2a8ae210412c63a4500dd392f539ea53df5f3e"
+    },
+    {
+      "id": "audit_1793485890372_c5l6",
+      "timestamp": "2026-10-31T22:31:30.372Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Pagamento Pix de R$ 497.00 CONFIRMADO. Assinatura sub_1793485890353_yw41 ATIVADA com sucesso.",
+      "hash": "94a9b9d3972ca8838a8779b429eeccd447d044d4d994d185712ff5aed9209d95"
+    },
+    {
+      "id": "audit_1793485890390_x5ri",
+      "timestamp": "2026-10-31T22:31:30.389Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_SUSPENDED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485890353_yw41 bloqueada por inadimplência ou ordem do Master Owner.",
+      "hash": "47b955a57f18a1d3e3bb69e464dadfc4b2fecc591919a7b640c2bd09c86942c5"
+    },
+    {
+      "id": "audit_1793485890394_e09e",
+      "timestamp": "2026-10-31T22:31:30.394Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_REACTIVATED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485890353_yw41 reativada. Acessos e cotas corporativas restabelecidos.",
+      "hash": "3ed81cbbdb3b2ac72aabcce5974799a5db93d43595dcce00c90c53d38501de41"
+    },
+    {
+      "id": "audit_1793485890398_unky",
+      "timestamp": "2026-10-31T22:31:30.398Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_CANCELED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793485890353_yw41 (Cosmic Growth) cancelada com sucesso.",
+      "hash": "378e3e5f18e1ae12c17e795cadda6a38ec0cd84fc74df39d4df127fd22976509"
+    },
+    {
+      "id": "audit_1793485890409_69z5",
+      "timestamp": "2026-10-31T22:31:30.409Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Valadares Log. Valor: R$ 18783.00 (Desconto: 10%)",
+      "hash": "c9b851a0f5f28963b6a6d7c0eccd81885a99ed1dea11c39c6463993acab6cee2"
+    },
+    {
+      "id": "audit_1793626185884_3u62",
+      "timestamp": "2026-11-02T13:29:45.884Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "a744d19beda345a9b8eb050067a9638e1b7d49fe623e34fe0ea0d1aa9bfb0a4c"
+    },
+    {
+      "id": "audit_1793627025455_2dr3",
+      "timestamp": "2026-11-02T13:43:45.455Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "f3b85a8f71755947581cebc89d2f6a2d836a62c282087adb7430700e30f1f68e"
+    },
+    {
+      "id": "audit_1793627025516_skvl",
+      "timestamp": "2026-11-02T13:43:45.516Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "5b8097e69317d6974ff570eab670812c8d05791b114ea6fb6567bcfd180ea74e"
+    },
+    {
+      "id": "audit_1793627025560_0jqy",
+      "timestamp": "2026-11-02T13:43:45.560Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SPENDING_LIMIT_UPDATED",
+      "companyId": "global",
+      "details": "Limite financeiro para aprovação manual configurado para R$ 2500.00",
+      "hash": "d8f784d05f3ce2cb4e5e602f81931b6a33f70e56d3c3801dcefbc57820b342b2"
+    },
+    {
+      "id": "audit_1793627027180_9auz",
+      "timestamp": "2026-11-02T13:43:47.180Z",
+      "actorEmail": "lead.agent@shefa-ayin.io",
+      "actorRole": "OPERATOR",
+      "action": "LEAD_QUALIFIED",
+      "companyId": "comp_vertice_tech",
+      "details": "Lead Carlos Drummond qualificado automaticamente no funil comercial.",
+      "hash": "f6a7f5de8a63e193466f06b9bada77b8c31ba68a2d4f71d45ca73cdbc8757bcb"
+    },
+    {
+      "id": "audit_1793627041451_4nzi",
+      "timestamp": "2026-11-02T13:44:01.451Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "94af2dca42f79b7c1fef7a75f7b2440152e6507ab7e3e806adc8cd33c0337f52"
+    },
+    {
+      "id": "audit_1793627041523_7vpt",
+      "timestamp": "2026-11-02T13:44:01.523Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "98ef822d11a703001c51ae34ac5280e8a6dfda5242d68a4439a5b52e42e3a2cb"
+    },
+    {
+      "id": "audit_1793627041570_npab",
+      "timestamp": "2026-11-02T13:44:01.570Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROJECT_CREATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto de desenvolvimento \"Módulo de Integração ERP Vértice Tech\" registrado.",
+      "hash": "f8137071786e0a4708303cfde2a0f1cbe895e0553b8747dda8d7086e97b91ffe"
+    },
+    {
+      "id": "audit_1793627041578_7tvb",
+      "timestamp": "2026-11-02T13:44:01.578Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "PROJECT_APPROVED_BY_CLIENT",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto \"Módulo de Integração ERP Vértice Tech\" aprovado e entregue formalmente.",
+      "hash": "306052e420c8a549590e7c230fe102a5e6b723b01ff1b4bdab875e57742efa6d"
+    },
+    {
+      "id": "audit_1793627041589_hfdz",
+      "timestamp": "2026-11-02T13:44:01.589Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_OPENED",
+      "companyId": "comp_vertice_tech",
+      "details": "Chamado de suporte \"Solicitação de Calibração da Persona Neural\" aberto.",
+      "hash": "8fc26202dd4994f1a57b338d011ed2bb89a6f615c985b85ce7cf1ace11c1dd55"
+    },
+    {
+      "id": "audit_1793627041599_f942",
+      "timestamp": "2026-11-02T13:44:01.599Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_STATUS_UPDATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Status do chamado \"Solicitação de Calibração da Persona Neural\" alterado para RESOLVED.",
+      "hash": "864f8fcf63990d463b72709f348083f479f57d642c8460286ca8b0ba0840462a"
+    },
+    {
+      "id": "audit_1793627041605_n4ro",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "INTER_AGENT_CYCLE_COMPLETED",
+      "companyId": "global",
+      "details": "Ciclo colaborativo multiagente cycle_1793627041604 executado com 11 transferências estruturadas entre departamentos.",
+      "hash": "b241d98311128134150c49e468078b87d327c4ef21060ce68cd40a57ae2cd495"
+    },
+    {
+      "id": "audit_1793627041613_x1ot",
+      "timestamp": "2026-11-02T13:44:01.613Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SPENDING_LIMIT_UPDATED",
+      "companyId": "global",
+      "details": "Limite financeiro para aprovação manual configurado para R$ 2500.00",
+      "hash": "4708223a9a0c231d669b69bfc827276c988fbda9dc1d406dc5cdea26986431d4"
+    },
+    {
+      "id": "audit_1793627045441_dz7i",
+      "timestamp": "2026-11-02T13:44:05.441Z",
+      "actorEmail": "lead.agent@shefa-ayin.io",
+      "actorRole": "OPERATOR",
+      "action": "LEAD_QUALIFIED",
+      "companyId": "comp_vertice_tech",
+      "details": "Lead Carlos Drummond qualificado automaticamente no funil comercial.",
+      "hash": "f51fcdc209621efe0d5e4da1691f2946984f922b10c6416018f94b770cc7457d"
+    },
+    {
+      "id": "audit_1793627103777_qv3i",
+      "timestamp": "2026-11-02T13:45:03.777Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "0bb3bc7bad23db24dcf9aa768194dfb5e25edbfff72ad2ea0f1b8b17ad64ab93"
+    },
+    {
+      "id": "audit_1793627103846_vhlm",
+      "timestamp": "2026-11-02T13:45:03.846Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "e6511745f9e1dea1846a12050fbf127022ea44601cb8ae60aebc678bf05cd529"
+    },
+    {
+      "id": "audit_1793627103859_9jea",
+      "timestamp": "2026-11-02T13:45:03.859Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Drummond & Associados. Valor: R$ 4500.00 (Desconto: 10%)",
+      "hash": "f5fe2ce3005104096b9c836490f43cc2d3ae2abfeac0d3870524bd145503fe6d"
+    },
+    {
+      "id": "audit_1793627103887_k3lx",
+      "timestamp": "2026-11-02T13:45:03.887Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROJECT_CREATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto de desenvolvimento \"Módulo de Integração ERP Vértice Tech\" registrado.",
+      "hash": "fff2ec60aa555106b87df0c15108dc753cf345e1464688b7e4ece8e554f64032"
+    },
+    {
+      "id": "audit_1793627103895_45m6",
+      "timestamp": "2026-11-02T13:45:03.895Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "PROJECT_APPROVED_BY_CLIENT",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto \"Módulo de Integração ERP Vértice Tech\" aprovado e entregue formalmente.",
+      "hash": "46e1f92eae56aab3f43f4efd112208de584d4a6c85b750c1456d680edfc687bb"
+    },
+    {
+      "id": "audit_1793627103903_9thh",
+      "timestamp": "2026-11-02T13:45:03.903Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_OPENED",
+      "companyId": "comp_vertice_tech",
+      "details": "Chamado de suporte \"Solicitação de Calibração da Persona Neural\" aberto.",
+      "hash": "ed8dc4a0c0bdaf8c18a170854f589baef6be14ef8bb8e4d00e1ec721b878b586"
+    },
+    {
+      "id": "audit_1793627103912_9jcs",
+      "timestamp": "2026-11-02T13:45:03.912Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_STATUS_UPDATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Status do chamado \"Solicitação de Calibração da Persona Neural\" alterado para RESOLVED.",
+      "hash": "c140d8f0adcf287a23d618e0af710b253f9852fedf6663af5e3c627e944b27d1"
+    },
+    {
+      "id": "audit_1793627103918_av88",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "INTER_AGENT_CYCLE_COMPLETED",
+      "companyId": "global",
+      "details": "Ciclo colaborativo multiagente cycle_1793627103918 executado com 11 transferências estruturadas entre departamentos.",
+      "hash": "ede56b2b131ed312f61a6c6c0e302b13d0dcc6e42e9f8ca200388a7722753159"
+    },
+    {
+      "id": "audit_1793627103927_9ihy",
+      "timestamp": "2026-11-02T13:45:03.927Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SPENDING_LIMIT_UPDATED",
+      "companyId": "global",
+      "details": "Limite financeiro para aprovação manual configurado para R$ 2500.00",
+      "hash": "5dcc7954332bca5e3a1858975a43cbbf2ee92027b42294edd014fda802c37fc3"
+    },
+    {
+      "id": "audit_1793627109447_juuq",
+      "timestamp": "2026-11-02T13:45:09.446Z",
+      "actorEmail": "lead.agent@shefa-ayin.io",
+      "actorRole": "OPERATOR",
+      "action": "LEAD_QUALIFIED",
+      "companyId": "comp_vertice_tech",
+      "details": "Lead Carlos Drummond qualificado automaticamente no funil comercial.",
+      "hash": "17d40ba0a312e5f39b586627924708b71ee1794d86287cf968599a41a4dc0f04"
+    },
+    {
+      "id": "audit_1793627149985_gc9u",
+      "timestamp": "2026-11-02T13:45:49.985Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "73d525106b87538bc554bff1dfa3e1503fa5e1d5e0a3659b0efd17d71fba8af2"
+    },
+    {
+      "id": "audit_1793627150049_vs0o",
+      "timestamp": "2026-11-02T13:45:50.048Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "aca69a5de55353805837459d999ff5823097022862e8399013b58b59be5aac80"
+    },
+    {
+      "id": "audit_1793627150063_qj1g",
+      "timestamp": "2026-11-02T13:45:50.063Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Drummond & Associados. Valor: R$ 4500.00 (Desconto: 10%)",
+      "hash": "fa04f0ef0c13b71b2a50f37d4e8ebc05dcc9fd915edb50a8afa9000aa6314cc9"
+    },
+    {
+      "id": "audit_1793627150091_q31x",
+      "timestamp": "2026-11-02T13:45:50.091Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793627150069_5hiv",
+      "details": "Cobrança Pix de R$ 497.00 gerada para o plano Cosmic Growth (monthly). TxID: SHF271500695T",
+      "hash": "068c07a49fc64e281b7971aa32884feb46ed0143f0fa94ec63ce10a88a9ec496"
+    },
+    {
+      "id": "audit_1793627150100_rszh",
+      "timestamp": "2026-11-02T13:45:50.100Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793627150069_5hiv",
+      "details": "Pagamento Pix de R$ 497.00 CONFIRMADO. Assinatura sub_1793627150090_i0ll ATIVADA com sucesso.",
+      "hash": "3c0e6c9645f31b4098b9bbcadf301b5179bb9ff312f8da7d853a1490ccb3eea2"
+    },
+    {
+      "id": "audit_1793627150114_q47l",
+      "timestamp": "2026-11-02T13:45:50.114Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROJECT_CREATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto de desenvolvimento \"Módulo de Integração ERP Vértice Tech\" registrado.",
+      "hash": "49260237206bd7862a90bbc48fac5dfc20331eb536d5cc32a6cfac8715669b2d"
+    },
+    {
+      "id": "audit_1793627150123_rb1g",
+      "timestamp": "2026-11-02T13:45:50.123Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "PROJECT_APPROVED_BY_CLIENT",
+      "companyId": "comp_vertice_tech",
+      "details": "Projeto \"Módulo de Integração ERP Vértice Tech\" aprovado e entregue formalmente.",
+      "hash": "2bce3981f35e6fda89b5f95429577616e5ecb1f1f3d57357dd6c8a500533a41c"
+    },
+    {
+      "id": "audit_1793627150129_f5r9",
+      "timestamp": "2026-11-02T13:45:50.129Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_OPENED",
+      "companyId": "comp_vertice_tech",
+      "details": "Chamado de suporte \"Solicitação de Calibração da Persona Neural\" aberto.",
+      "hash": "0d994b61b1fd663a3e9da582deb751a1b8839967e4115b041f9762182fcb5a41"
+    },
+    {
+      "id": "audit_1793627150141_45v3",
+      "timestamp": "2026-11-02T13:45:50.141Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "SUPPORT_TICKET_STATUS_UPDATED",
+      "companyId": "comp_vertice_tech",
+      "details": "Status do chamado \"Solicitação de Calibração da Persona Neural\" alterado para RESOLVED.",
+      "hash": "1c3ef1e8b99ac491c11ae56a8ff89aa04d1852638813f02fb5824d0053123dc6"
+    },
+    {
+      "id": "audit_1793627150147_1wkx",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "INTER_AGENT_CYCLE_COMPLETED",
+      "companyId": "global",
+      "details": "Ciclo colaborativo multiagente cycle_1793627150146 executado com 11 transferências estruturadas entre departamentos.",
+      "hash": "7320e9e953dd06e1ae753d8d9c429c1db87617ac2aaaa278b5825017a28cf291"
+    },
+    {
+      "id": "audit_1793627150156_32nc",
+      "timestamp": "2026-11-02T13:45:50.156Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SPENDING_LIMIT_UPDATED",
+      "companyId": "global",
+      "details": "Limite financeiro para aprovação manual configurado para R$ 2500.00",
+      "hash": "afa18224f2934b7f9ebe9f47ccb2b4363d84748558ed07bfa87e7a34b28c5c9c"
+    },
+    {
+      "id": "audit_1793627155555_fegr",
+      "timestamp": "2026-11-02T13:45:55.555Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "0888f713c6c09f975a68331ea8bed9994985a88df6c8ca90078151f724ec3858"
+    },
+    {
+      "id": "audit_1793627155609_fo11",
+      "timestamp": "2026-11-02T13:45:55.609Z",
+      "actorEmail": "contato@verticecorp.com.br",
+      "actorRole": "COMPANY_ADMIN",
+      "action": "USER_LOGIN",
+      "companyId": "comp_vertice_tech",
+      "details": "Login realizado com sucesso.",
+      "hash": "49c0467b030996552e0f6b14b8a3318a2ee8274c8e1ec482139c2e8c3beea329"
+    },
+    {
+      "id": "audit_1793627155628_7kr3",
+      "timestamp": "2026-11-02T13:45:55.628Z",
+      "actorEmail": "audit@alpha.corp.br",
+      "actorRole": "OPERATOR",
+      "action": "SUBSCRIPTION_CHECKOUT",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Cobrança Pix de R$ 497.00 gerada para o plano Cosmic Growth (monthly). TxID: SHF27155623WT",
+      "hash": "b2bc3e811f20503cd8c64103b00f184365f57e12fff4d0034a53fc8c1bae10d9"
+    },
+    {
+      "id": "audit_1793627155635_qldw",
+      "timestamp": "2026-11-02T13:45:55.635Z",
+      "actorEmail": "unauthorized@webhook.probe",
+      "actorRole": "OPERATOR",
+      "action": "PIX_WEBHOOK_AUTH_FAILED",
+      "companyId": "global",
+      "details": "Tentativa de conciliação Pix sem assinatura ou secret válido para TxID: SHF27155623WT",
+      "hash": "f596ad1964fd3590572043dcd6b417090bff0de268b590e3b2a67edb09d7cdee"
+    },
+    {
+      "id": "audit_1793627155648_gw5c",
+      "timestamp": "2026-11-02T13:45:55.648Z",
+      "actorEmail": "webhook@bacen.gov.br",
+      "actorRole": "OPERATOR",
+      "action": "PIX_AMOUNT_MISMATCH",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Tentativa de pagamento com valor divergente detectada: Esperado R$ 497, Recebido R$ 1",
+      "hash": "115a5d60bf00717b9f18bfac05d6e3e46a8cc6bcdb6a95064e2f63ec46c46e4a"
+    },
+    {
+      "id": "audit_1793627155656_b60a",
+      "timestamp": "2026-11-02T13:45:55.656Z",
+      "actorEmail": "pix.webhook@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "PIX_PAYMENT_CONFIRMED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Pagamento Pix de R$ 497.00 CONFIRMADO. Assinatura sub_1793627155626_grhn ATIVADA com sucesso.",
+      "hash": "ef84c3468acd161660e1b3a6564d1e5a91caeeb6fb9711dd9c92e16663a3e91d"
+    },
+    {
+      "id": "audit_1793627155680_qanz",
+      "timestamp": "2026-11-02T13:45:55.679Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_SUSPENDED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793627155626_grhn bloqueada por inadimplência ou ordem do Master Owner.",
+      "hash": "d211e83fb30eedaa6789f40eda5c590402934a6edc91c93ecf9ab62f834f0557"
+    },
+    {
+      "id": "audit_1793627155686_9b71",
+      "timestamp": "2026-11-02T13:45:55.686Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_REACTIVATED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793627155626_grhn reativada. Acessos e cotas corporativas restabelecidos.",
+      "hash": "2938d927ac5242468aef0bfae592bf9f587bfa1ed1a8c0cbcf8ec02e0129e641"
+    },
+    {
+      "id": "audit_1793627155692_abzs",
+      "timestamp": "2026-11-02T13:45:55.692Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "SUBSCRIPTION_CANCELED",
+      "companyId": "comp_1793485777595_ac57",
+      "details": "Assinatura sub_1793627155626_grhn (Cosmic Growth) cancelada com sucesso.",
+      "hash": "62ee9a452033e3f9c103ed1b9fe64a2803e459e60599e38cb199c5c8e7298eed"
+    },
+    {
+      "id": "audit_1793627155710_1gwn",
+      "timestamp": "2026-11-02T13:45:55.710Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "PROPOSAL_CREATED",
+      "companyId": "global",
+      "details": "Proposta comercial gerada para Valadares Log. Valor: R$ 18783.00 (Desconto: 10%)",
+      "hash": "2c121e664c6784ea30d4df117d86cd0b635d14bf9da7b7aa0eb804e252c5ac89"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1793627150114_myl7",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "title": "Módulo de Integração ERP Vértice Tech",
+      "description": "Desenvolvimento de sincronização bidirecional de pedidos e conciliação bancária.",
+      "assignedAgentCodename": "SALES AGENT",
+      "status": "DELIVERED",
+      "tasks": [
+        {
+          "id": "task_1793627150114_0",
+          "title": "Conexão via API REST com token OAuth",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "FINANCE AGENT",
+          "deadline": "2026-11-20"
+        },
+        {
+          "id": "task_1793627150114_1",
+          "title": "Testes de conciliação de faturas",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "ANALYTICS AGENT",
+          "deadline": "2026-11-25"
+        }
+      ],
+      "deadline": "2026-11-30",
+      "clientApprovalStatus": "APPROVED",
+      "createdAt": "2026-11-02T13:45:50.114Z",
+      "updatedAt": "2026-11-02T13:45:50.123Z",
+      "deliveredAt": "2026-11-02T13:45:50.123Z",
+      "clientFeedback": "Integração homologada e aprovada pelo diretor de TI."
+    },
+    {
+      "id": "proj_1793627103887_wh8c",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "title": "Módulo de Integração ERP Vértice Tech",
+      "description": "Desenvolvimento de sincronização bidirecional de pedidos e conciliação bancária.",
+      "assignedAgentCodename": "SALES AGENT",
+      "status": "DELIVERED",
+      "tasks": [
+        {
+          "id": "task_1793627103887_0",
+          "title": "Conexão via API REST com token OAuth",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "FINANCE AGENT",
+          "deadline": "2026-11-20"
+        },
+        {
+          "id": "task_1793627103887_1",
+          "title": "Testes de conciliação de faturas",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "ANALYTICS AGENT",
+          "deadline": "2026-11-25"
+        }
+      ],
+      "deadline": "2026-11-30",
+      "clientApprovalStatus": "APPROVED",
+      "createdAt": "2026-11-02T13:45:03.887Z",
+      "updatedAt": "2026-11-02T13:45:03.895Z",
+      "deliveredAt": "2026-11-02T13:45:03.895Z",
+      "clientFeedback": "Integração homologada e aprovada pelo diretor de TI."
+    },
+    {
+      "id": "proj_1793627041570_ma60",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "title": "Módulo de Integração ERP Vértice Tech",
+      "description": "Desenvolvimento de sincronização bidirecional de pedidos e conciliação bancária.",
+      "assignedAgentCodename": "SALES AGENT",
+      "status": "DELIVERED",
+      "tasks": [
+        {
+          "id": "task_1793627041570_0",
+          "title": "Conexão via API REST com token OAuth",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "FINANCE AGENT",
+          "deadline": "2026-11-20"
+        },
+        {
+          "id": "task_1793627041570_1",
+          "title": "Testes de conciliação de faturas",
+          "description": "",
+          "status": "pending",
+          "assignedAgent": "ANALYTICS AGENT",
+          "deadline": "2026-11-25"
+        }
+      ],
+      "deadline": "2026-11-30",
+      "clientApprovalStatus": "APPROVED",
+      "createdAt": "2026-11-02T13:44:01.570Z",
+      "updatedAt": "2026-11-02T13:44:01.578Z",
+      "deliveredAt": "2026-11-02T13:44:01.578Z",
+      "clientFeedback": "Integração homologada e aprovada pelo diretor de TI."
+    },
+    {
+      "id": "proj_vertice_omnichannel",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Soluções",
+      "serviceContractId": "contract_001",
+      "title": "Implantação Omnichannel do Motor Neural AYIN SALES",
+      "description": "Integração completa do pipeline comercial e qualificação autônoma de leads via WhatsApp e CRM corporativo.",
+      "assignedAgentCodename": "SALES AGENT",
+      "status": "IN_DEVELOPMENT",
+      "tasks": [
+        {
+          "id": "task_001",
+          "title": "Mapeamento de jornada e regras de qualificação de leads",
+          "description": "Definir critérios BANT para qualificação automática no Lead Agent.",
+          "status": "completed",
+          "assignedAgent": "LEAD AGENT",
+          "deadline": "2026-11-05",
+          "completedAt": "2026-11-03T14:20:00Z"
+        },
+        {
+          "id": "task_002",
+          "title": "Configuração do webhook bancário Pix para liberação instantânea",
+          "description": "Testar endpoint autenticado com chave secreta HMAC e idempotência de txId.",
+          "status": "in_progress",
+          "assignedAgent": "FINANCE AGENT",
+          "deadline": "2026-11-08"
+        },
+        {
+          "id": "task_003",
+          "title": "Homologação assistida e treinamento da equipe de vendas",
+          "description": "Validação final de aceite pelo cliente Vértice Tech.",
+          "status": "pending",
+          "assignedAgent": "CUSTOMER AGENT",
+          "deadline": "2026-11-12"
+        }
+      ],
+      "deadline": "2026-11-15",
+      "clientApprovalStatus": "PENDING",
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-03T14:20:00Z"
+    },
+    {
+      "id": "proj_aurora_custom_ai",
+      "companyId": "comp_aurora_sa",
+      "companyName": "Aurora Logística Global",
+      "title": "Automação Tática de Roteirização e Atendimento com AYIN CORE",
+      "description": "Desenvolvimento e ajuste fino de persona logística com base de conhecimento privativa.",
+      "assignedAgentCodename": "CREATIVE AGENT",
+      "status": "PLANNING",
+      "tasks": [
+        {
+          "id": "task_aurora_01",
+          "title": "Estruturação da Base de Conhecimento RAG com manuais operacionais",
+          "status": "in_progress",
+          "assignedAgent": "REPORT AGENT",
+          "deadline": "2026-11-10"
+        }
+      ],
+      "deadline": "2026-11-20",
+      "clientApprovalStatus": "PENDING",
+      "createdAt": "2026-11-02T08:00:00Z",
+      "updatedAt": "2026-11-02T08:00:00Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "ticket_1793627150129_hpte",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "subject": "Solicitação de Calibração da Persona Neural",
+      "description": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+      "priority": "HIGH",
+      "status": "RESOLVED",
+      "category": "AGENT_TUNING",
+      "assignedAgent": "CUSTOMER AGENT",
+      "communicationHistory": [
+        {
+          "id": "msg_1793627150129_0",
+          "senderEmail": "contato@verticecorp.com.br",
+          "senderName": "Diretoria Vértice",
+          "senderRole": "CLIENT",
+          "message": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+          "timestamp": "2026-11-02T13:45:50.129Z"
+        },
+        {
+          "id": "msg_1793627150136",
+          "senderEmail": "Alifermadeiro@hotmail.com",
+          "senderName": "Alifer Madeiro (Master Owner)",
+          "senderRole": "MASTER_OWNER",
+          "message": "Parâmetros recalibrados pelo Master Owner e Customer Agent com sucesso.",
+          "timestamp": "2026-11-02T13:45:50.136Z"
+        }
+      ],
+      "createdAt": "2026-11-02T13:45:50.129Z",
+      "updatedAt": "2026-11-02T13:45:50.141Z",
+      "resolvedAt": "2026-11-02T13:45:50.141Z",
+      "satisfactionRating": 5
+    },
+    {
+      "id": "ticket_1793627103903_ih3d",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "subject": "Solicitação de Calibração da Persona Neural",
+      "description": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+      "priority": "HIGH",
+      "status": "RESOLVED",
+      "category": "AGENT_TUNING",
+      "assignedAgent": "CUSTOMER AGENT",
+      "communicationHistory": [
+        {
+          "id": "msg_1793627103903_0",
+          "senderEmail": "contato@verticecorp.com.br",
+          "senderName": "Diretoria Vértice",
+          "senderRole": "CLIENT",
+          "message": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+          "timestamp": "2026-11-02T13:45:03.903Z"
+        },
+        {
+          "id": "msg_1793627103909",
+          "senderEmail": "Alifermadeiro@hotmail.com",
+          "senderName": "Alifer Madeiro (Master Owner)",
+          "senderRole": "MASTER_OWNER",
+          "message": "Parâmetros recalibrados pelo Master Owner e Customer Agent com sucesso.",
+          "timestamp": "2026-11-02T13:45:03.909Z"
+        }
+      ],
+      "createdAt": "2026-11-02T13:45:03.903Z",
+      "updatedAt": "2026-11-02T13:45:03.912Z",
+      "resolvedAt": "2026-11-02T13:45:03.912Z",
+      "satisfactionRating": 5
+    },
+    {
+      "id": "ticket_1793627041589_8t0u",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "subject": "Solicitação de Calibração da Persona Neural",
+      "description": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+      "priority": "HIGH",
+      "status": "RESOLVED",
+      "category": "AGENT_TUNING",
+      "assignedAgent": "CUSTOMER AGENT",
+      "communicationHistory": [
+        {
+          "id": "msg_1793627041589_0",
+          "senderEmail": "contato@verticecorp.com.br",
+          "senderName": "Diretoria Vértice",
+          "senderRole": "CLIENT",
+          "message": "Precisamos de ajustes nos gatilhos de fechamento do Sales Agent.",
+          "timestamp": "2026-11-02T13:44:01.589Z"
+        },
+        {
+          "id": "msg_1793627041595",
+          "senderEmail": "Alifermadeiro@hotmail.com",
+          "senderName": "Alifer Madeiro (Master Owner)",
+          "senderRole": "MASTER_OWNER",
+          "message": "Parâmetros recalibrados pelo Master Owner e Customer Agent com sucesso.",
+          "timestamp": "2026-11-02T13:44:01.595Z"
+        }
+      ],
+      "createdAt": "2026-11-02T13:44:01.589Z",
+      "updatedAt": "2026-11-02T13:44:01.599Z",
+      "resolvedAt": "2026-11-02T13:44:01.599Z",
+      "satisfactionRating": 5
+    },
+    {
+      "id": "ticket_vertice_001",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Soluções",
+      "customerEmail": "contato@verticecorp.com.br",
+      "subject": "Ajuste de persona e tom de voz no AYIN SALES",
+      "description": "Gostaríamos de calibrar o assistente de vendas para um tom mais corporativo e consultivo no segmento B2B SaaS.",
+      "priority": "HIGH",
+      "status": "IN_PROGRESS",
+      "category": "AGENT_TUNING",
+      "assignedAgent": "CUSTOMER AGENT",
+      "communicationHistory": [
+        {
+          "id": "msg_001",
+          "senderEmail": "contato@verticecorp.com.br",
+          "senderName": "Diretoria Vértice Tech",
+          "senderRole": "CLIENT",
+          "message": "Prezados, gostaríamos de ajustar o prompt da persona para incluir terminologia técnica de infraestrutura em nuvem.",
+          "timestamp": "2026-11-02T11:00:00Z"
+        },
+        {
+          "id": "msg_002",
+          "senderEmail": "customer.agent@shefa-ayin.io",
+          "senderName": "Customer Success Agent (SHEFA AYIN)",
+          "senderRole": "AGENT",
+          "message": "Perfeito! O CREATIVE AGENT e o LEAD AGENT recalibraram os parâmetros de síntese. A nova persona já está em produção.",
+          "timestamp": "2026-11-02T11:30:00Z"
+        }
+      ],
+      "createdAt": "2026-11-02T11:00:00Z",
+      "updatedAt": "2026-11-02T11:30:00Z"
+    }
+  ],
+  "agentInteractions": [
+    {
+      "id": "interaction_001",
+      "timestamp": "2026-11-02T09:15:00Z",
+      "fromAgent": "RADAR AGENT",
+      "toAgent": "LEAD AGENT",
+      "actionType": "MARKET_RADAR_OPPORTUNITY",
+      "subject": "Detecção de oportunidade corporativa: demanda de IA em infraestrutura",
+      "payload": {
+        "sector": "Saúde & Diagnóstico",
+        "marketScore": 94,
+        "estimatedAnnualBudget": 180000
+      },
+      "verifiableOutput": "3 prospects corporativos indexados e transferidos para estruturação de cadência comercial.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "interaction_002",
+      "timestamp": "2026-11-02T10:00:00Z",
+      "fromAgent": "LEAD AGENT",
+      "toAgent": "SALES AGENT",
+      "actionType": "LEAD_QUALIFICATION_HANDOFF",
+      "subject": "Handoff de lead qualificado com score 89/100 (Grupo Hospitalar San Raphael)",
+      "payload": {
+        "leadId": "lead_002",
+        "company": "Grupo Hospitalar San Raphael",
+        "planSuggested": "Infinity Enterprise"
+      },
+      "verifiableOutput": "Proposta comercial pré-gerada no CRM com cotação de implantação dedicada.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "interaction_003",
+      "timestamp": "2026-11-02T10:30:00Z",
+      "fromAgent": "SALES AGENT",
+      "toAgent": "FINANCE AGENT",
+      "actionType": "SALES_PROPOSAL_DISPATCH",
+      "subject": "Solicitação de emissão de cobrança Pix e homologação de contrato comercial",
+      "payload": {
+        "proposalId": "prop_002",
+        "amount": 8900,
+        "termMonths": 12
+      },
+      "verifiableOutput": "QR Code e payload EMV padrão BACEN emitidos para cobrança sob chave 11973479473.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041604_1",
+      "timestamp": "2026-11-02T13:44:01.604Z",
+      "fromAgent": "RADAR AGENT",
+      "toAgent": "LEAD AGENT",
+      "actionType": "MARKET_RADAR_OPPORTUNITY",
+      "subject": "Detecção de expansão: Demanda B2B por soluções de automação e IA corporativa",
+      "payload": {
+        "sector": "Tecnologia & Serviços Financeiros",
+        "readinessIndex": 92,
+        "estimatedPipelineValue": 48000
+      },
+      "verifiableOutput": "Varredura neural concluiu 2 novos alvos potenciais com fit no plano Cosmic Growth e serviços de implantação.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041604_2",
+      "timestamp": "2026-11-02T13:44:01.604Z",
+      "fromAgent": "LEAD AGENT",
+      "toAgent": "SALES AGENT",
+      "actionType": "LEAD_QUALIFICATION_HANDOFF",
+      "subject": "Handoff de lead qualificado para estruturação de proposta comercial",
+      "payload": {
+        "leadCompany": "InovaCloud Sistemas",
+        "leadContact": "Roberto Mendonça (CTO)",
+        "qualificationScore": 88,
+        "recommendedPlan": "Cosmic Growth"
+      },
+      "verifiableOutput": "Perfil corporativo indexado no CRM com dados de contato validados e pronto para geração de proposta.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_3",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "SALES AGENT",
+      "toAgent": "FINANCE AGENT",
+      "actionType": "SALES_PROPOSAL_DISPATCH",
+      "subject": "Proposta comercial estruturada com escopo de implantação dedicada",
+      "payload": {
+        "company": "InovaCloud Sistemas",
+        "annualPrice": 4970,
+        "servicesValue": 3900,
+        "discountPercent": 10,
+        "finalValue": 7983
+      },
+      "verifiableOutput": "Proposta gerada no CRM com termo contratual e parâmetros para cobrança Pix.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_4",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "FINANCE AGENT",
+      "toAgent": "SUBSCRIPTION AGENT",
+      "actionType": "FINANCE_PIX_RECONCILIATION",
+      "subject": "Conciliação bancária Pix e sincronização de liquidez com gateway",
+      "payload": {
+        "confirmedCount": 5,
+        "pendingCount": 0,
+        "verifiedLiquidRevenue": 150688,
+        "pixKey": "11973479473"
+      },
+      "verifiableOutput": "Conciliação concluída: 5 transações liquidadas, 0 pendentes. Chave oficial 11973479473 validada.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_5",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "SUBSCRIPTION AGENT",
+      "toAgent": "CUSTOMER AGENT",
+      "actionType": "SUBSCRIPTION_QUOTA_ADJUSTMENT",
+      "subject": "Auditoria de limites SaaS e validação de cotas contratuais ativas",
+      "payload": {
+        "activeSubscriptionsCount": 3,
+        "enforcedTiers": [
+          "Astral Starter",
+          "Cosmic Growth",
+          "Infinity Enterprise"
+        ]
+      },
+      "verifiableOutput": "3 assinaturas ativas auditadas. Cotas sincronizadas com as regras dos planos oficiais.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_6",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "CUSTOMER AGENT",
+      "toAgent": "MARKETING AGENT",
+      "actionType": "CUSTOMER_ONBOARDING_ALERT",
+      "subject": "Acompanhamento de onboarding e resolução de chamados de suporte",
+      "payload": {
+        "openTickets": 1,
+        "clientHealthScore": 95
+      },
+      "verifiableOutput": "Ambientes de clientes operando em normalidade. 1 chamados ativos monitorados sem escalonamento crítico.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_7",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "MARKETING AGENT",
+      "toAgent": "CREATIVE AGENT",
+      "actionType": "MARKETING_CAMPAIGN_PITCH",
+      "subject": "Pauta de campanha: \"Autonomia 24/7 com Soberania Master Owner para Médias Empresas\"",
+      "payload": {
+        "channel": "LinkedIn Corporativo & Prospecção Direta",
+        "targetPersona": "Diretoria de Operações e Vendas",
+        "primaryHook": "Elimine gargalos operacionais com o ecossistema neural SHEFA AYIN."
+      },
+      "verifiableOutput": "Briefing estratégico finalizado e despachado ao Creative Agent para redação de copies.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_8",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "CREATIVE AGENT",
+      "toAgent": "MARKET AGENT",
+      "actionType": "CREATIVE_ASSET_DELIVERY",
+      "subject": "Entrega de copies e peças conceituais no padrão estético Obsidian & Champagne Gold",
+      "payload": {
+        "tone": "Cinematográfico, sóbrio e soberano",
+        "headline": "Inteligência Viva. Soberania Corporativa Absoluta."
+      },
+      "verifiableOutput": "Roteiro de abordagem e copies de e-mail institucional gerados e indexados na base criativa.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_9",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "MARKET AGENT",
+      "toAgent": "ANALYTICS AGENT",
+      "actionType": "COMPETITOR_BENCHMARK_SYNC",
+      "subject": "Atualização de benchmarks de mercado: SaaS de automação corporativa no Brasil",
+      "payload": {
+        "marketAverageStarter": 249,
+        "marketAverageGrowth": 650,
+        "shefaPositioningAdvantage": "Melhor relação custo-benefício com 11 agentes autônomos integrados"
+      },
+      "verifiableOutput": "Tabela comparativa atualizada na base de inteligência com validação de competitividade.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_10",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "ANALYTICS AGENT",
+      "toAgent": "REPORT AGENT",
+      "actionType": "ANALYTICS_METRICS_AUDIT",
+      "subject": "Auditoria de DRE e métricas operacionais com segregação de receitas reais vs demo",
+      "payload": {
+        "verifiedPixRevenue": 1688,
+        "activeContracts": 1,
+        "leadCount": 8
+      },
+      "verifiableOutput": "Métricas auditadas: R$ 1688.00 em Pix verificado. Índices de margem e conversão consolidados.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627041605_11",
+      "timestamp": "2026-11-02T13:44:01.605Z",
+      "fromAgent": "REPORT AGENT",
+      "toAgent": "RADAR AGENT",
+      "actionType": "MASTER_REPORT_COMPILATION",
+      "subject": "Relatório Executivo Operacional para Master Owner (Alifermadeiro@hotmail.com)",
+      "payload": {
+        "auditedAt": "2026-11-02T13:44:01.605Z",
+        "cycleId": "cycle_1793627041604",
+        "operationalStatus": "100% OPERACIONAL E CONCILIADO"
+      },
+      "verifiableOutput": "Dossiê executivo compilado. Todos os 11 agentes executaram suas atribuições em cooperação mútua.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_1",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "RADAR AGENT",
+      "toAgent": "LEAD AGENT",
+      "actionType": "MARKET_RADAR_OPPORTUNITY",
+      "subject": "Detecção de expansão: Demanda B2B por soluções de automação e IA corporativa",
+      "payload": {
+        "sector": "Tecnologia & Serviços Financeiros",
+        "readinessIndex": 92,
+        "estimatedPipelineValue": 48000
+      },
+      "verifiableOutput": "Varredura neural concluiu 2 novos alvos potenciais com fit no plano Cosmic Growth e serviços de implantação.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_2",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "LEAD AGENT",
+      "toAgent": "SALES AGENT",
+      "actionType": "LEAD_QUALIFICATION_HANDOFF",
+      "subject": "Handoff de lead qualificado para estruturação de proposta comercial",
+      "payload": {
+        "leadCompany": "InovaCloud Sistemas",
+        "leadContact": "Roberto Mendonça (CTO)",
+        "qualificationScore": 88,
+        "recommendedPlan": "Cosmic Growth"
+      },
+      "verifiableOutput": "Perfil corporativo indexado no CRM com dados de contato validados e pronto para geração de proposta.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_3",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "SALES AGENT",
+      "toAgent": "FINANCE AGENT",
+      "actionType": "SALES_PROPOSAL_DISPATCH",
+      "subject": "Proposta comercial estruturada com escopo de implantação dedicada",
+      "payload": {
+        "company": "InovaCloud Sistemas",
+        "annualPrice": 4970,
+        "servicesValue": 3900,
+        "discountPercent": 10,
+        "finalValue": 7983
+      },
+      "verifiableOutput": "Proposta gerada no CRM com termo contratual e parâmetros para cobrança Pix.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_4",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "FINANCE AGENT",
+      "toAgent": "SUBSCRIPTION AGENT",
+      "actionType": "FINANCE_PIX_RECONCILIATION",
+      "subject": "Conciliação bancária Pix e sincronização de liquidez com gateway",
+      "payload": {
+        "confirmedCount": 5,
+        "pendingCount": 0,
+        "verifiedLiquidRevenue": 150688,
+        "pixKey": "11973479473"
+      },
+      "verifiableOutput": "Conciliação concluída: 5 transações liquidadas, 0 pendentes. Chave oficial 11973479473 validada.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_5",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "SUBSCRIPTION AGENT",
+      "toAgent": "CUSTOMER AGENT",
+      "actionType": "SUBSCRIPTION_QUOTA_ADJUSTMENT",
+      "subject": "Auditoria de limites SaaS e validação de cotas contratuais ativas",
+      "payload": {
+        "activeSubscriptionsCount": 3,
+        "enforcedTiers": [
+          "Astral Starter",
+          "Cosmic Growth",
+          "Infinity Enterprise"
+        ]
+      },
+      "verifiableOutput": "3 assinaturas ativas auditadas. Cotas sincronizadas com as regras dos planos oficiais.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_6",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "CUSTOMER AGENT",
+      "toAgent": "MARKETING AGENT",
+      "actionType": "CUSTOMER_ONBOARDING_ALERT",
+      "subject": "Acompanhamento de onboarding e resolução de chamados de suporte",
+      "payload": {
+        "openTickets": 1,
+        "clientHealthScore": 95
+      },
+      "verifiableOutput": "Ambientes de clientes operando em normalidade. 1 chamados ativos monitorados sem escalonamento crítico.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_7",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "MARKETING AGENT",
+      "toAgent": "CREATIVE AGENT",
+      "actionType": "MARKETING_CAMPAIGN_PITCH",
+      "subject": "Pauta de campanha: \"Autonomia 24/7 com Soberania Master Owner para Médias Empresas\"",
+      "payload": {
+        "channel": "LinkedIn Corporativo & Prospecção Direta",
+        "targetPersona": "Diretoria de Operações e Vendas",
+        "primaryHook": "Elimine gargalos operacionais com o ecossistema neural SHEFA AYIN."
+      },
+      "verifiableOutput": "Briefing estratégico finalizado e despachado ao Creative Agent para redação de copies.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_8",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "CREATIVE AGENT",
+      "toAgent": "MARKET AGENT",
+      "actionType": "CREATIVE_ASSET_DELIVERY",
+      "subject": "Entrega de copies e peças conceituais no padrão estético Obsidian & Champagne Gold",
+      "payload": {
+        "tone": "Cinematográfico, sóbrio e soberano",
+        "headline": "Inteligência Viva. Soberania Corporativa Absoluta."
+      },
+      "verifiableOutput": "Roteiro de abordagem e copies de e-mail institucional gerados e indexados na base criativa.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_9",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "MARKET AGENT",
+      "toAgent": "ANALYTICS AGENT",
+      "actionType": "COMPETITOR_BENCHMARK_SYNC",
+      "subject": "Atualização de benchmarks de mercado: SaaS de automação corporativa no Brasil",
+      "payload": {
+        "marketAverageStarter": 249,
+        "marketAverageGrowth": 650,
+        "shefaPositioningAdvantage": "Melhor relação custo-benefício com 11 agentes autônomos integrados"
+      },
+      "verifiableOutput": "Tabela comparativa atualizada na base de inteligência com validação de competitividade.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_10",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "ANALYTICS AGENT",
+      "toAgent": "REPORT AGENT",
+      "actionType": "ANALYTICS_METRICS_AUDIT",
+      "subject": "Auditoria de DRE e métricas operacionais com segregação de receitas reais vs demo",
+      "payload": {
+        "verifiedPixRevenue": 1688,
+        "activeContracts": 1,
+        "leadCount": 9
+      },
+      "verifiableOutput": "Métricas auditadas: R$ 1688.00 em Pix verificado. Índices de margem e conversão consolidados.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627103918_11",
+      "timestamp": "2026-11-02T13:45:03.918Z",
+      "fromAgent": "REPORT AGENT",
+      "toAgent": "RADAR AGENT",
+      "actionType": "MASTER_REPORT_COMPILATION",
+      "subject": "Relatório Executivo Operacional para Master Owner (Alifermadeiro@hotmail.com)",
+      "payload": {
+        "auditedAt": "2026-11-02T13:45:03.918Z",
+        "cycleId": "cycle_1793627103918",
+        "operationalStatus": "100% OPERACIONAL E CONCILIADO"
+      },
+      "verifiableOutput": "Dossiê executivo compilado. Todos os 11 agentes executaram suas atribuições em cooperação mútua.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150146_1",
+      "timestamp": "2026-11-02T13:45:50.146Z",
+      "fromAgent": "RADAR AGENT",
+      "toAgent": "LEAD AGENT",
+      "actionType": "MARKET_RADAR_OPPORTUNITY",
+      "subject": "Detecção de expansão: Demanda B2B por soluções de automação e IA corporativa",
+      "payload": {
+        "sector": "Tecnologia & Serviços Financeiros",
+        "readinessIndex": 92,
+        "estimatedPipelineValue": 48000
+      },
+      "verifiableOutput": "Varredura neural concluiu 2 novos alvos potenciais com fit no plano Cosmic Growth e serviços de implantação.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150146_2",
+      "timestamp": "2026-11-02T13:45:50.146Z",
+      "fromAgent": "LEAD AGENT",
+      "toAgent": "SALES AGENT",
+      "actionType": "LEAD_QUALIFICATION_HANDOFF",
+      "subject": "Handoff de lead qualificado para estruturação de proposta comercial",
+      "payload": {
+        "leadCompany": "InovaCloud Sistemas",
+        "leadContact": "Roberto Mendonça (CTO)",
+        "qualificationScore": 88,
+        "recommendedPlan": "Cosmic Growth"
+      },
+      "verifiableOutput": "Perfil corporativo indexado no CRM com dados de contato validados e pronto para geração de proposta.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150146_3",
+      "timestamp": "2026-11-02T13:45:50.146Z",
+      "fromAgent": "SALES AGENT",
+      "toAgent": "FINANCE AGENT",
+      "actionType": "SALES_PROPOSAL_DISPATCH",
+      "subject": "Proposta comercial estruturada com escopo de implantação dedicada",
+      "payload": {
+        "company": "InovaCloud Sistemas",
+        "annualPrice": 4970,
+        "servicesValue": 3900,
+        "discountPercent": 10,
+        "finalValue": 7983
+      },
+      "verifiableOutput": "Proposta gerada no CRM com termo contratual e parâmetros para cobrança Pix.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150146_4",
+      "timestamp": "2026-11-02T13:45:50.146Z",
+      "fromAgent": "FINANCE AGENT",
+      "toAgent": "SUBSCRIPTION AGENT",
+      "actionType": "FINANCE_PIX_RECONCILIATION",
+      "subject": "Conciliação bancária Pix e sincronização de liquidez com gateway",
+      "payload": {
+        "confirmedCount": 6,
+        "pendingCount": 0,
+        "verifiedLiquidRevenue": 151185,
+        "pixKey": "11973479473"
+      },
+      "verifiableOutput": "Conciliação concluída: 6 transações liquidadas, 0 pendentes. Chave oficial 11973479473 validada.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_5",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "SUBSCRIPTION AGENT",
+      "toAgent": "CUSTOMER AGENT",
+      "actionType": "SUBSCRIPTION_QUOTA_ADJUSTMENT",
+      "subject": "Auditoria de limites SaaS e validação de cotas contratuais ativas",
+      "payload": {
+        "activeSubscriptionsCount": 4,
+        "enforcedTiers": [
+          "Astral Starter",
+          "Cosmic Growth",
+          "Infinity Enterprise"
+        ]
+      },
+      "verifiableOutput": "4 assinaturas ativas auditadas. Cotas sincronizadas com as regras dos planos oficiais.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_6",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "CUSTOMER AGENT",
+      "toAgent": "MARKETING AGENT",
+      "actionType": "CUSTOMER_ONBOARDING_ALERT",
+      "subject": "Acompanhamento de onboarding e resolução de chamados de suporte",
+      "payload": {
+        "openTickets": 1,
+        "clientHealthScore": 95
+      },
+      "verifiableOutput": "Ambientes de clientes operando em normalidade. 1 chamados ativos monitorados sem escalonamento crítico.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_7",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "MARKETING AGENT",
+      "toAgent": "CREATIVE AGENT",
+      "actionType": "MARKETING_CAMPAIGN_PITCH",
+      "subject": "Pauta de campanha: \"Autonomia 24/7 com Soberania Master Owner para Médias Empresas\"",
+      "payload": {
+        "channel": "LinkedIn Corporativo & Prospecção Direta",
+        "targetPersona": "Diretoria de Operações e Vendas",
+        "primaryHook": "Elimine gargalos operacionais com o ecossistema neural SHEFA AYIN."
+      },
+      "verifiableOutput": "Briefing estratégico finalizado e despachado ao Creative Agent para redação de copies.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_8",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "CREATIVE AGENT",
+      "toAgent": "MARKET AGENT",
+      "actionType": "CREATIVE_ASSET_DELIVERY",
+      "subject": "Entrega de copies e peças conceituais no padrão estético Obsidian & Champagne Gold",
+      "payload": {
+        "tone": "Cinematográfico, sóbrio e soberano",
+        "headline": "Inteligência Viva. Soberania Corporativa Absoluta."
+      },
+      "verifiableOutput": "Roteiro de abordagem e copies de e-mail institucional gerados e indexados na base criativa.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_9",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "MARKET AGENT",
+      "toAgent": "ANALYTICS AGENT",
+      "actionType": "COMPETITOR_BENCHMARK_SYNC",
+      "subject": "Atualização de benchmarks de mercado: SaaS de automação corporativa no Brasil",
+      "payload": {
+        "marketAverageStarter": 249,
+        "marketAverageGrowth": 650,
+        "shefaPositioningAdvantage": "Melhor relação custo-benefício com 11 agentes autônomos integrados"
+      },
+      "verifiableOutput": "Tabela comparativa atualizada na base de inteligência com validação de competitividade.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_10",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "ANALYTICS AGENT",
+      "toAgent": "REPORT AGENT",
+      "actionType": "ANALYTICS_METRICS_AUDIT",
+      "subject": "Auditoria de DRE e métricas operacionais com segregação de receitas reais vs demo",
+      "payload": {
+        "verifiedPixRevenue": 2185,
+        "activeContracts": 1,
+        "leadCount": 10
+      },
+      "verifiableOutput": "Métricas auditadas: R$ 2185.00 em Pix verificado. Índices de margem e conversão consolidados.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    },
+    {
+      "id": "int_1793627150147_11",
+      "timestamp": "2026-11-02T13:45:50.147Z",
+      "fromAgent": "REPORT AGENT",
+      "toAgent": "RADAR AGENT",
+      "actionType": "MASTER_REPORT_COMPILATION",
+      "subject": "Relatório Executivo Operacional para Master Owner (Alifermadeiro@hotmail.com)",
+      "payload": {
+        "auditedAt": "2026-11-02T13:45:50.147Z",
+        "cycleId": "cycle_1793627150146",
+        "operationalStatus": "100% OPERACIONAL E CONCILIADO"
+      },
+      "verifiableOutput": "Dossiê executivo compilado. Todos os 11 agentes executaram suas atribuições em cooperação mútua.",
+      "status": "PROCESSED",
+      "isSensitive": false
+    }
+  ],
+  "sessions": [
+    {
+      "token": "3d2bc7a1dc9ce35eef3041d5b16ec48831855ba040d17237eb1639d920bf4816",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T09:33:00.861Z"
+    },
+    {
+      "token": "0ceb75fd357288e9d34f61c785da7d9dbaa3b30902f592937b7ded037349e9eb",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T21:32:43.583Z"
+    },
+    {
+      "token": "4ff4812d7788eef60138f5deac8216061137e5aa673fe9272249d98a467ffa17",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-07T21:32:46.565Z"
+    },
+    {
+      "token": "09672b42ddc64777b8b4cfd39e41e3de9f6ca3b679528f4a0f03efeface9c2e1",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T21:33:39.548Z"
+    },
+    {
+      "token": "5ca35a2c1658f4e20868a68d5e46a80e9896bd944bfdf5ade3ce0625d1ffd3e9",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:02:08.091Z"
+    },
+    {
+      "token": "729fbda1e217eae3ea4b0209522cfc74a740a8882e63261fc1a40173b720a69a",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:03:11.956Z"
+    },
+    {
+      "token": "b55ff69a4430ec6e6f66ebb93a1a3ddb8ebca996ffe2246d0f22af0b6aceba20",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:19:57.899Z"
+    },
+    {
+      "token": "29a362e4cb91e6c2779d4ea99eb861d8e681cc18e8a8044cf7215577003bcba3",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:29:37.574Z"
+    },
+    {
+      "token": "b9c7a05a672aaaaa5e27f52d19e7127f74a2d06c26af6a07793be9fcdcb248c3",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:31:05.901Z"
+    },
+    {
+      "token": "dc70cea41629858e956de4cf61424ceb9344c1ad7725a301c2b4f5e7138c68fe",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T22:31:30.265Z"
+    },
+    {
+      "token": "ac4fb468938cdc010a22b31152308fbac89d184a1c994b681456f55258541df1",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-07T22:31:30.333Z"
+    },
+    {
+      "token": "dde4cb37b860d467aeefdf74746b88906b81ed1fa81d5dd38443bda1853b8a19",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:29:45.883Z"
+    },
+    {
+      "token": "db19928496c27112ff10c6808c524959f51925144aac05711b08b10919fbb7eb",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:43:45.454Z"
+    },
+    {
+      "token": "535aaf82ca98b55182620c12587dcf37662cc713c3fdf66911c8fdc673a52022",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-09T13:43:45.515Z"
+    },
+    {
+      "token": "c090cab31f757470912c53cfc0396b756bdc2cdaa52051f60865d2dbc5f5c549",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:44:01.450Z"
+    },
+    {
+      "token": "87f9acee9986f90e4bf1255f77f54dc35d11b8129d9260f7665caab3cd1a80e3",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-09T13:44:01.521Z"
+    },
+    {
+      "token": "e977e5ff33abb55e80717bd627d22a06e9ff4eff2c3c03bcfd0c9316fd3ec053",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:45:03.776Z"
+    },
+    {
+      "token": "ab84bc195d35c98e42a37bb72f1e8a0863a2603286783c2f90e8ca4f659d5bf4",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-09T13:45:03.845Z"
+    },
+    {
+      "token": "bdacc93323ca0b1f9613a7af252640826f5712f12b473fc5db49d1ce68ef4f5b",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:45:49.983Z"
+    },
+    {
+      "token": "0b284e246a1b30e63ce03aac1a2f9523d417a26dadca44d636d0dffc269bcf3f",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-09T13:45:50.047Z"
+    },
+    {
+      "token": "edc384b1c5d3df472a8280c8af4fdfe64f7fda3682106eeaef657e27fcd28334",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-09T13:45:55.553Z"
+    },
+    {
+      "token": "f1a6c749976d2d96128c981378da13a94f0f5dd199c276ff4bbe685c03d37824",
+      "userId": "user_client_vertice",
+      "expiresAt": "2026-11-09T13:45:55.607Z"
+    }
+  ]
+}

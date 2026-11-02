@@ -1,0 +1,807 @@
+{
+  "users": [
+    {
+      "id": "user_master_owner",
+      "email": "Alifermadeiro@hotmail.com",
+      "name": "Alifer Madeiro (Master Owner)",
+      "role": "MASTER_OWNER",
+      "passwordHash": "84591469d698cd1e19bcd074e1bbea808591b3ed85dc4612346f48da7573b02945d8820b0052d27aa02f648a72d03436bbb2da329ecc7ce0531a78a1d838e263",
+      "salt": "c0b0db5cb5aa24b722bce4d085419b55",
+      "createdAt": "2026-10-31T09:32:40.699Z",
+      "lastLogin": "2026-10-31T09:33:00.862Z"
+    },
+    {
+      "id": "user_client_vertice",
+      "email": "contato@verticecorp.com.br",
+      "name": "Diretoria Vértice",
+      "role": "COMPANY_ADMIN",
+      "companyId": "comp_vertice_tech",
+      "passwordHash": "d3c7a3aa900f0de4a4133b96f186fd8c42f84d1ed0d55d80f16509d5847b6276e83507a7f9d8af6188d04a27d18894a76ebcaf46391ec5ef453836fbde405b0b",
+      "salt": "86cc0086c4109582857cb996ba40e147",
+      "createdAt": "2026-10-31T09:32:40.699Z"
+    },
+    {
+      "id": "user_client_aurora",
+      "email": "gestao@aurorabusiness.com",
+      "name": "Gestão Aurora",
+      "role": "COMPANY_ADMIN",
+      "companyId": "comp_aurora_sa",
+      "passwordHash": "d3c7a3aa900f0de4a4133b96f186fd8c42f84d1ed0d55d80f16509d5847b6276e83507a7f9d8af6188d04a27d18894a76ebcaf46391ec5ef453836fbde405b0b",
+      "salt": "86cc0086c4109582857cb996ba40e147",
+      "createdAt": "2026-10-31T09:32:40.699Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp_vertice_tech",
+      "name": "Vértice Tech Global",
+      "tradeName": "Vértice Sistemas Inteligentes",
+      "cnpjOrTaxId": "42.891.023/0001-94",
+      "plan": "Infinity Enterprise",
+      "status": "active",
+      "createdAt": "2026-01-15T09:00:00Z",
+      "aiPersona": {
+        "assistantName": "Ayin Vértice",
+        "tone": "Consultivo, corporativo e analítico",
+        "welcomeMessage": "Bem-vindo à Vértice Tech. Sou a inteligência dedicada às suas operações.",
+        "instructions": "Focar na automação de processos B2B e expansão da receita com clientes corporativos."
+      },
+      "quotas": {
+        "monthlyMissions": 500,
+        "usedMissions": 142,
+        "maxAgents": 10,
+        "maxKnowledgeDocs": 50
+      }
+    },
+    {
+      "id": "comp_aurora_sa",
+      "name": "Grupo Aurora Logística & Varejo",
+      "tradeName": "Aurora Express",
+      "cnpjOrTaxId": "18.345.678/0001-12",
+      "plan": "Cosmic Growth",
+      "status": "active",
+      "createdAt": "2026-03-10T14:30:00Z",
+      "aiPersona": {
+        "assistantName": "Ayin Aurora",
+        "tone": "Ágil, comercial e focado em logística e entregas",
+        "welcomeMessage": "Olá! Sou o assistente de inteligência de frotas e distribuição da Aurora.",
+        "instructions": "Otimizar taxas de conversão de fretes e renegociação com transportadoras parceiras."
+      },
+      "quotas": {
+        "monthlyMissions": 250,
+        "usedMissions": 88,
+        "maxAgents": 5,
+        "maxKnowledgeDocs": 25
+      }
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent_radar_01",
+      "companyId": "global",
+      "name": "Radar Sentinel",
+      "hebrewCodename": "צופה (Tzofeh)",
+      "departmentId": "AYIN_RADAR",
+      "agentRoleType": "RADAR AGENT",
+      "role": "Varredura Contínua de Oportunidades",
+      "specialty": "Mapeamento de empresas corporativas com demanda para soluções da SHEFA AYIN",
+      "autonomyLevel": "autonomous_safe",
+      "status": "analyzing",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 341,
+      "accuracyScore": 98,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_lead_02",
+      "companyId": "global",
+      "name": "Lead Organizer",
+      "hebrewCodename": "שומר (Shoer)",
+      "departmentId": "AYIN_SALES",
+      "agentRoleType": "LEAD AGENT",
+      "role": "Qualificação & Estruturação de Contatos",
+      "specialty": "Segmentação de leads corporativos, enriquecimento de dados e pontuação de fit",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 452,
+      "accuracyScore": 97,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_sales_03",
+      "companyId": "global",
+      "name": "Sales Negotiator",
+      "hebrewCodename": "נושא (Noseh)",
+      "departmentId": "AYIN_SALES",
+      "agentRoleType": "SALES AGENT",
+      "role": "Apresentação de Ofertas & Fechamento",
+      "specialty": "Condução de negociações dentro dos limites autorizados e elaboração de propostas",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 520,
+      "accuracyScore": 97,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_customer_04",
+      "companyId": "global",
+      "name": "Customer Concierge 24/7",
+      "hebrewCodename": "עוזר (Ozer)",
+      "departmentId": "AYIN_AGENTS",
+      "agentRoleType": "CUSTOMER AGENT",
+      "role": "Atendimento & Suporte Contínuo",
+      "specialty": "Tira-dúvidas 24h, orientação de planos, checkout Pix e suporte consultivo",
+      "autonomyLevel": "full_autonomous",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 885,
+      "accuracyScore": 99,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_marketing_05",
+      "companyId": "global",
+      "name": "Marketing Herald",
+      "hebrewCodename": "מבשר (Mevaser)",
+      "departmentId": "AYIN_CREATIVE",
+      "agentRoleType": "MARKETING AGENT",
+      "role": "Planejamento de Campanhas & Ativação",
+      "specialty": "Estratégias de conteúdo de atração e acompanhamento de métricas de alcance",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 290,
+      "accuracyScore": 95,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_creative_06",
+      "companyId": "global",
+      "name": "Creative Scribe",
+      "hebrewCodename": "סופר (Sofer)",
+      "departmentId": "AYIN_CREATIVE",
+      "agentRoleType": "CREATIVE AGENT",
+      "role": "Produção de Propostas & Copywriting",
+      "specialty": "Copywriting de alta persuasão, pitches comerciais e materiais de divulgação",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 412,
+      "accuracyScore": 96,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_market_07",
+      "companyId": "global",
+      "name": "Market Intelligence Scout",
+      "hebrewCodename": "סוחר (Socher)",
+      "departmentId": "AYIN_MARKET",
+      "agentRoleType": "MARKET AGENT",
+      "role": "Monitoramento de Concorrência & Tendências",
+      "specialty": "Acompanhamento de precificação concorrencial e oportunidades de arbitragem",
+      "autonomyLevel": "supervised",
+      "status": "idle",
+      "is24hEnabled": false,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 145,
+      "accuracyScore": 94,
+      "lastActive": "2026-10-31T10:05:16.106Z"
+    },
+    {
+      "id": "agent_finance_08",
+      "companyId": "global",
+      "name": "Finance Custodian",
+      "hebrewCodename": "גזבר (Gizbar)",
+      "departmentId": "AYIN_FINANCE",
+      "agentRoleType": "FINANCE AGENT",
+      "role": "Auditoria de Receitas & Despesas",
+      "specialty": "Acompanhamento de pagamentos Pix, liquidações, comissões e proteção de margem",
+      "autonomyLevel": "supervised",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 388,
+      "accuracyScore": 100,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_sub_09",
+      "companyId": "global",
+      "name": "Subscription Warden",
+      "hebrewCodename": "נציב (Natsiv)",
+      "departmentId": "AYIN_FINANCE",
+      "agentRoleType": "SUBSCRIPTION AGENT",
+      "role": "Gestão de Assinaturas & Acessos",
+      "specialty": "Ativação imediata pós-Pix, controle de vencimentos, trials e cotas de uso",
+      "autonomyLevel": "autonomous_safe",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 610,
+      "accuracyScore": 99,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_analytics_10",
+      "companyId": "global",
+      "name": "Analytics Strategist",
+      "hebrewCodename": "חכם (Chacham)",
+      "departmentId": "AYIN_STRATEGY",
+      "agentRoleType": "ANALYTICS AGENT",
+      "role": "Otimização Comercial & Operacional",
+      "specialty": "Identificação de melhorias no funil de conversão e eficiência dos agentes",
+      "autonomyLevel": "full_autonomous",
+      "status": "running",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 672,
+      "accuracyScore": 99,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    },
+    {
+      "id": "agent_report_11",
+      "companyId": "global",
+      "name": "Report Chronicler",
+      "hebrewCodename": "מזכיר (Mazkir)",
+      "departmentId": "AYIN_INTELLIGENCE",
+      "agentRoleType": "REPORT AGENT",
+      "role": "Geração de Relatórios Executivos",
+      "specialty": "Consolidação de relatórios executivos para o Master Owner com visão 360°",
+      "autonomyLevel": "autonomous_safe",
+      "status": "idle",
+      "is24hEnabled": true,
+      "isManuallyPaused": false,
+      "totalMissionsCompleted": 430,
+      "accuracyScore": 98,
+      "lastActive": "2026-10-31T21:26:18.744Z"
+    }
+  ],
+  "missions": [
+    {
+      "id": "mis_1793439181733_bnxdt",
+      "companyId": "global",
+      "creatorEmail": "Alifermadeiro@hotmail.com",
+      "title": "Missão: Varredura de concorrentes no setor de IA corpora...",
+      "objective": "Orquestração de diretriz estratégica: \"Varredura de concorrentes no setor de IA corporativa com foco em proteção de margem financeira\" com distribuição modular entre departamentos especializados.",
+      "priority": "medium",
+      "status": "completed",
+      "departmentsInvolved": [
+        "AYIN_STRATEGY",
+        "AYIN_RADAR"
+      ],
+      "isSensitive": false,
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Etapa 1: Desdobramento tático em STRATEGY",
+          "departmentId": "AYIN_STRATEGY",
+          "status": "completed",
+          "result": "Relatório de Execução (Ayin Strategy Architect): Análise de conformidade e desdobramento tático concluídos para Etapa 1: Desdobramento tático em STRATEGY."
+        },
+        {
+          "id": "step_2",
+          "title": "Etapa 2: Desdobramento tático em RADAR",
+          "departmentId": "AYIN_RADAR",
+          "status": "completed",
+          "result": "Relatório de Execução (Ayin Radar Sentinel): Análise de conformidade e desdobramento tático concluídos para Etapa 2: Desdobramento tático em RADAR."
+        }
+      ],
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-31T09:33:01.733Z",
+          "agentName": "AYIN CORE Director",
+          "message": "Comando mestre interpretado. Missão decomposta em 2 etapas estratégicas.",
+          "type": "info"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:02.095Z",
+          "agentName": "Ayin Core Director",
+          "message": "Missão iniciada em background contínuo. Despachando tarefas aos departamentos.",
+          "type": "action"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:02.647Z",
+          "agentName": "Ayin Strategy Architect",
+          "message": "Etapa concluída: Etapa 1: Desdobramento tático em STRATEGY.",
+          "type": "success"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:12.604Z",
+          "agentName": "Ayin Radar Sentinel",
+          "message": "Etapa concluída: Etapa 2: Desdobramento tático em RADAR.",
+          "type": "success"
+        },
+        {
+          "timestamp": "2026-10-31T09:56:12.604Z",
+          "agentName": "Ayin Memory Oracle",
+          "message": "Resultados arquivados na memória de longo prazo para evolução operacional contínua.",
+          "type": "info"
+        }
+      ],
+      "createdAt": "2026-10-31T09:33:01.733Z",
+      "updatedAt": "2026-10-31T09:56:12.604Z",
+      "finalReport": "Missão executada integralmente. Todas as 2 etapas cumpridas com validação nos departamentos: AYIN_STRATEGY, AYIN_RADAR."
+    },
+    {
+      "id": "mis_001_market_radar",
+      "companyId": "global",
+      "creatorEmail": "Alifermadeiro@hotmail.com",
+      "title": "Mapeamento Global de Inteligências Verticais 2026",
+      "objective": "Identificar movimentos de concorrentes no setor de IA corporativa e mapear oportunidades de consolidação.",
+      "priority": "high",
+      "status": "completed",
+      "departmentsInvolved": [
+        "AYIN_RADAR",
+        "AYIN_STRATEGY"
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Varredura de 14 plataformas corporativas emergentes",
+          "departmentId": "AYIN_RADAR",
+          "assignedAgentId": "agent_radar_scout",
+          "status": "completed",
+          "result": "Mapeadas 14 soluções. Oportunidade identificada: carência de observatórios integrados com execução 24/7 em background."
+        },
+        {
+          "id": "step_2",
+          "title": "Elaboração da Matriz de Diferenciação Shefa",
+          "departmentId": "AYIN_STRATEGY",
+          "assignedAgentId": "agent_strat_architect",
+          "status": "completed",
+          "result": "Matriz consolidada. Destaque para governança multi-tenant e aprovações do Master Owner."
+        }
+      ],
+      "isSensitive": false,
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-30T14:00:00Z",
+          "agentName": "Ayin Radar Sentinel",
+          "message": "Iniciada varredura de sinais de mercado via conectores autorizados.",
+          "type": "info"
+        },
+        {
+          "timestamp": "2026-10-30T14:15:00Z",
+          "agentName": "Ayin Strategy Architect",
+          "message": "Análise sintética concluída com 98% de precisão.",
+          "type": "success"
+        }
+      ],
+      "finalReport": "Relatório Executivo Shefa: O mercado busca plataformas de inteligência com soberania de dados e sem falsas simulações.",
+      "createdAt": "2026-10-30T13:50:00Z",
+      "updatedAt": "2026-10-30T14:20:00Z"
+    },
+    {
+      "id": "mis_002_creative_push",
+      "companyId": "comp_vertice_tech",
+      "creatorEmail": "contato@verticecorp.com.br",
+      "title": "Campanha de Ativação B2B: Automação Quântica",
+      "objective": "Gerar sequência de abordagem consultiva para diretores de tecnologia e CFOs.",
+      "priority": "medium",
+      "status": "in_progress",
+      "departmentsInvolved": [
+        "AYIN_CREATIVE",
+        "AYIN_SALES"
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "title": "Produção de 3 variações de copy de abordagem",
+          "departmentId": "AYIN_CREATIVE",
+          "assignedAgentId": "agent_creative_alchemist",
+          "status": "completed",
+          "result": "Cópias geradas com foco em ROI tangível e redução de custos operacionais."
+        },
+        {
+          "id": "step_2",
+          "title": "Disparo de cadência para 25 leads qualificados",
+          "departmentId": "AYIN_SALES",
+          "assignedAgentId": "agent_sales_closer",
+          "status": "running",
+          "result": "Cadência em andamento. 8 respostas registradas."
+        }
+      ],
+      "isSensitive": false,
+      "executionLogs": [
+        {
+          "timestamp": "2026-10-31T01:10:00Z",
+          "agentName": "Ayin Creative Scribe",
+          "message": "Geração de copy finalizada segundo as diretrizes da Vértice Tech.",
+          "type": "action"
+        }
+      ],
+      "createdAt": "2026-10-31T01:00:00Z",
+      "updatedAt": "2026-10-31T02:00:00Z"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "knd_001",
+      "companyId": "global",
+      "title": "Constituição Operacional SHEFA AYIN",
+      "category": "policy",
+      "content": "A Shefa Ayin opera sob três pilares inegociáveis: Transparência Absoluta (sem números simulados), Soberania do Master Owner (ações sensíveis exigem aprovação manual) e Isolamento Multitenant Hermético.",
+      "updatedAt": "2026-10-25T10:00:00Z"
+    },
+    {
+      "id": "knd_002",
+      "companyId": "comp_vertice_tech",
+      "title": "Manual de Soluções e Acordos de Nível de Serviço (SLA)",
+      "category": "guide",
+      "content": "A Vértice Tech garante 99.9% de uptime para sistemas de missão crítica, com resposta inicial do suporte em até 15 minutos para clientes Enterprise.",
+      "updatedAt": "2026-10-20T12:00:00Z"
+    },
+    {
+      "id": "knd_003",
+      "companyId": "comp_aurora_sa",
+      "title": "Diretrizes de Roteirização e Frota Nacional",
+      "category": "policy",
+      "content": "Prazos operacionais padrão: Capitais em até 24 horas úteis; regiões metropolitanas em até 48 horas úteis.",
+      "updatedAt": "2026-10-18T16:00:00Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_101",
+      "companyId": "comp_vertice_tech",
+      "name": "Dra. Carolina Mendonça",
+      "email": "carolina.m@inovalab.io",
+      "phone": "+55 (11) 98765-4321",
+      "source": "Inbound Conectado",
+      "stage": "Negociação",
+      "value": 120000,
+      "notes": "Interesse em implantar agentes de automação contínua para 4 subsidiárias.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-28T11:20:00Z",
+      "lastContact": "2026-10-30T17:40:00Z"
+    },
+    {
+      "id": "lead_102",
+      "companyId": "comp_vertice_tech",
+      "name": "Eng. Roberto Albuquerque",
+      "email": "roberto@sindlog.com.br",
+      "phone": "+55 (21) 99123-8844",
+      "source": "Radar de Oportunidades",
+      "stage": "Proposta",
+      "value": 48000,
+      "notes": "Solicitou proposta com integração de dados sensíveis e auditoria LGPD.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-29T09:15:00Z",
+      "lastContact": "2026-10-30T15:00:00Z"
+    },
+    {
+      "id": "lead_103",
+      "companyId": "comp_aurora_sa",
+      "name": "Marcos Vinícius Prado",
+      "email": "m.prado@distribuidorasul.com",
+      "phone": "+55 (41) 99876-1122",
+      "source": "Campanha de Ativação",
+      "stage": "Qualificado",
+      "value": 85000,
+      "notes": "Necessidade de monitoramento de fretes fracionados em 12 centros de distribuição.",
+      "assignedAgent": "Ayin Sales Hunter",
+      "createdAt": "2026-10-30T10:00:00Z",
+      "lastContact": "2026-10-31T01:30:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "companyId": "global",
+      "title": "SHEFA AYIN Enterprise Hub (Licença Anual)",
+      "category": "Plataforma Core",
+      "price": 180000,
+      "commissionRate": 15,
+      "type": "proprio",
+      "status": "active"
+    },
+    {
+      "id": "prod_002",
+      "companyId": "global",
+      "title": "Módulo de Operação Contínua 24h & Agentes Autônomos",
+      "category": "Expansão de Inteligência",
+      "price": 45000,
+      "commissionRate": 20,
+      "type": "proprio",
+      "status": "active"
+    },
+    {
+      "id": "prod_003",
+      "companyId": "comp_vertice_tech",
+      "title": "Vértice Core API - Middleware de Alta Disponibilidade",
+      "category": "Software Corporativo",
+      "price": 64000,
+      "commissionRate": 10,
+      "type": "proprio",
+      "status": "active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_2026_01",
+      "companyId": "comp_vertice_tech",
+      "customerName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "items": [
+        {
+          "productId": "prod_001",
+          "title": "SHEFA AYIN Enterprise Hub (Licença Anual)",
+          "price": 149000,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 149000,
+      "status": "CONFIRMED",
+      "paymentMethod": "PIX",
+      "pixChargeId": "pix_initial_01",
+      "createdAt": "2026-01-15T09:30:00Z",
+      "confirmedAt": "2026-01-15T10:00:00Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_vertice_001",
+      "companyId": "comp_vertice_tech",
+      "companyName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "planTier": "Infinity Enterprise",
+      "billingCycle": "annual",
+      "status": "ACTIVE",
+      "price": 149000,
+      "startDate": "2026-01-15T00:00:00Z",
+      "expiresAt": "2027-01-15T00:00:00Z",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Constelação total 11 agentes",
+        "Missões ilimitadas",
+        "Conciliação Pix 24/7",
+        "Blindagem dedicada"
+      ],
+      "lastPaymentConfirmedAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "sub_aurora_002",
+      "companyId": "comp_aurora_sa",
+      "companyName": "Grupo Aurora Logística & Varejo",
+      "customerEmail": "gestao@aurorabusiness.com",
+      "planTier": "Cosmic Growth",
+      "billingCycle": "monthly",
+      "status": "ACTIVE",
+      "price": 4990,
+      "startDate": "2026-10-10T00:00:00Z",
+      "expiresAt": "2026-11-10T00:00:00Z",
+      "autoRenew": true,
+      "featuresUnlocked": [
+        "Até 8 agentes 24/7",
+        "500 missões/mês",
+        "Conciliação Pix automática"
+      ],
+      "lastPaymentConfirmedAt": "2026-10-10T14:30:00Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan_astral_starter",
+      "tier": "Astral Starter",
+      "name": "SHEFA ASTRAL · Start",
+      "monthlyPrice": 1990,
+      "annualPrice": 19900,
+      "description": "Central de IA autônoma para negócios em aceleração e estruturação de canais comerciais.",
+      "features": [
+        "Núcleo AYIN CORE integrado",
+        "Até 3 agentes autônomos simultâneos",
+        "150 missões estratégicas/mês",
+        "Funil de vendas e qualificação de leads",
+        "Base de conhecimento privativa (até 15 docs)",
+        "Recebimento e gestão de cobranças Pix"
+      ],
+      "trialDays": 7,
+      "limits": {
+        "monthlyMissions": 150,
+        "maxAgents": 3,
+        "maxKnowledgeDocs": 15,
+        "customAIPersona": false,
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "plan_cosmic_growth",
+      "tier": "Cosmic Growth",
+      "name": "SHEFA COSMIC · Growth",
+      "monthlyPrice": 4990,
+      "annualPrice": 49900,
+      "description": "Operação autônoma contínua 24h para empresas consolidadas com múltiplos canais e agentes dedicados.",
+      "features": [
+        "Núcleo AYIN CORE com prioridade alta",
+        "Até 8 agentes especializados 24/7",
+        "500 missões estratégicas/mês",
+        "Assistente de IA dedicado com persona própria",
+        "Automação completa de propostas e follow-up",
+        "Base de conhecimento privativa (até 50 docs)",
+        "Conciliação Pix automatizada via webhook"
+      ],
+      "trialDays": 7,
+      "limits": {
+        "monthlyMissions": 500,
+        "maxAgents": 8,
+        "maxKnowledgeDocs": 50,
+        "customAIPersona": true,
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "plan_infinity_enterprise",
+      "tier": "Infinity Enterprise",
+      "name": "SHEFA INFINITY · Enterprise",
+      "monthlyPrice": 14900,
+      "annualPrice": 149000,
+      "description": "Soberania corporativa total, rede ilimitada de agentes, alta autonomia e suporte consultivo 24/7.",
+      "features": [
+        "Acesso total à constelação com 11 agentes",
+        "Capacidade de missões ilimitadas (3.000+/mês)",
+        "Blindagem LGPD & Isolamento físico-lógico",
+        "Módulo 24/7 autônomo ininterrupto no servidor",
+        "Aprovações do Master Owner com travas personalizadas",
+        "Comissionamento dinâmico de afiliados e parceiros",
+        "Suporte prioritário sob demanda e consultoria tática"
+      ],
+      "trialDays": 14,
+      "limits": {
+        "monthlyMissions": 3000,
+        "maxAgents": 15,
+        "maxKnowledgeDocs": 200,
+        "customAIPersona": true,
+        "prioritySupport": true
+      }
+    }
+  ],
+  "pixCharges": [
+    {
+      "id": "pix_initial_01",
+      "orderId": "ord_2026_01",
+      "companyId": "comp_vertice_tech",
+      "customerName": "Vértice Tech Global",
+      "customerEmail": "contato@verticecorp.com.br",
+      "customerCpfOrCnpj": "42.891.023/0001-94",
+      "planTier": "Infinity Enterprise",
+      "amount": 149000,
+      "pixKey": "11973479473",
+      "pixKeyType": "TELEFONE CELULAR",
+      "recipientName": "Alifer Madeiro",
+      "copyPasteCode": "00020126360014br.gov.bcb.pix0111119734794735204000053039865410149000.005802BR5914Alifer Madeiro6009SAO PAULO62110507SHEFA016304E8A2",
+      "status": "CONFIRMED",
+      "createdAt": "2026-01-15T09:30:00Z",
+      "expiresAt": "2026-01-15T10:30:00Z",
+      "confirmedAt": "2026-01-15T10:00:00Z",
+      "txId": "SHEFA01"
+    }
+  ],
+  "commissions": [
+    {
+      "id": "com_001",
+      "orderId": "ord_2026_01",
+      "partnerName": "Rede de Expansão Alfa",
+      "partnerEmail": "parceiros@alfaexp.com.br",
+      "rate": 10,
+      "amount": 14900,
+      "status": "liquidado",
+      "date": "2026-01-16T00:00:00Z"
+    }
+  ],
+  "governance": {
+    "isEmergencyPaused": false,
+    "financialSpendingLimit": 1000,
+    "maxConcurrentTasks": 5,
+    "autoRetryCount": 3,
+    "pixKey": "11973479473",
+    "pixKeyType": "TELEFONE CELULAR",
+    "masterRecipient": "Alifer Madeiro (Master Owner)",
+    "lastUpdated": "2026-10-31T10:05:16.132Z",
+    "spendingLimit": 1000
+  },
+  "finances": [
+    {
+      "id": "fin_001",
+      "companyId": "global",
+      "title": "Assinatura Anual Enterprise - Vértice Tech",
+      "type": "assinatura",
+      "amount": 180000,
+      "date": "2026-10-01",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_002",
+      "companyId": "global",
+      "title": "Assinatura Anual Growth - Aurora Logística",
+      "type": "assinatura",
+      "amount": 72000,
+      "date": "2026-10-15",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_003",
+      "companyId": "global",
+      "title": "Custo de Infraestrutura de Nuvem & GPU Dedicada",
+      "type": "custo",
+      "amount": 12450,
+      "date": "2026-10-25",
+      "status": "liquidado"
+    },
+    {
+      "id": "fin_004",
+      "companyId": "global",
+      "title": "Solicitação de Orçamento: Campanha Externa de Tráfego Q4",
+      "type": "custo",
+      "amount": 25000,
+      "date": "2026-10-31",
+      "status": "aprovacao_necessaria"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_genesis",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "actorEmail": "system@shefa-ayin.io",
+      "actorRole": "MASTER_OWNER",
+      "action": "INIT_OBSERVATORY",
+      "companyId": "global",
+      "details": "Observatório SHEFA AYIN inicializado com 8 departamentos e governança ativa.",
+      "hash": "93f260234c683fecabac1756291727faa72fce5e1b66e942cbddc565775b2c15"
+    },
+    {
+      "id": "audit_1793439180862_d1ye",
+      "timestamp": "2026-10-31T09:33:00.862Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "USER_LOGIN",
+      "companyId": "global",
+      "details": "Login realizado com sucesso.",
+      "hash": "76a5bb8000ef4de5848780ec4e7cc8bb0b86dbc3ff53be382fb7cf8b980c2f04"
+    },
+    {
+      "id": "audit_1793439181734_vlx9",
+      "timestamp": "2026-10-31T09:33:01.733Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "COMMAND_DISPATCHED",
+      "companyId": "global",
+      "details": "Comando: \"Varredura de concorrentes no setor de IA corporativa com foco em proteção de margem financeira\". Missão criada: mis_1793439181733_bnxdt. Sensível: false",
+      "hash": "718ac9a53fd4bdee854f849957b4d2985b2381c05258b574c6f77dfe306de4f3"
+    },
+    {
+      "id": "audit_1793440572605_qy1n",
+      "timestamp": "2026-10-31T09:56:12.605Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "OPERATOR",
+      "action": "MISSION_COMPLETED",
+      "companyId": "global",
+      "details": "Missão \"Missão: Varredura de concorrentes no setor de IA corpora...\" finalizada com sucesso.",
+      "hash": "11aa2e799a0e6b8d8bee70ee02930ebf47400689efec3135520512e47bec4852"
+    },
+    {
+      "id": "audit_1793441116131_h1ug",
+      "timestamp": "2026-10-31T10:05:16.131Z",
+      "actorEmail": "Alifermadeiro@hotmail.com",
+      "actorRole": "MASTER_OWNER",
+      "action": "EMERGENCY_PAUSE_TOGGLE",
+      "companyId": "MASTER_PLATFORM",
+      "details": "Pausa geral de emergência alterada para true",
+      "hash": "e697b7f50ba458dca09e4f29a439375507c4b4ec55335fd848d916e27f61d9d6"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "3d2bc7a1dc9ce35eef3041d5b16ec48831855ba040d17237eb1639d920bf4816",
+      "userId": "user_master_owner",
+      "expiresAt": "2026-11-07T09:33:00.861Z"
+    }
+  ]
+}
